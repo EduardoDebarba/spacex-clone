@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SpaceX - Starship</title>
+		<link
+			rel="shortcut icon"
+			href="../spacex-clone/images-spacex-clone/favicon-spacex.ico"
+			type="image/x-icon"
+		/>
+		<!-- Link Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap/dist/css/bootstrap.css"
+		/>
+		<!-- Link Boostrap Icons -->
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="starship.css" />
+		<!-- Link Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Link Lib Animation -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body>
+		<header class="header w-100 d-flex justify-content-center">
+			<nav
+				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center p-1"
+			>
+				<div class="d-flex align-items-center justify-content-center w-100">
+					<a href="main.html">
+						<img
+							class="img-logo-nav"
+							src="./images-spacex-clone/SpaceX-White-Logo.wine.png"
+							alt="Logo SpaceX"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav pt-3">
+							<li class="nav-item">
+								<a
+									class="nav-link active text-white fw-bold"
+									aria-current="page"
+									href="falcon9.html"
+									>FALCON 9</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="falcon-heavy.html"
+									>FALCON HEAVY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="dragon.html"
+									>DRAGON</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="starship.html"
+									>STARSHIP</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="solar-system.html"
+									>SISTEMA SOLAR</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="artemis.html"
+									>VIAGEM PARA A LUA</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div
+			class="falcon-main bg-image1 d-flex justify-content-center align-items-center w-100 vh-100"
+		>
+			<div class="text-center" data-aos="fade-up">
+				<h1 class="text-white">STARSHIP</h1>
+				<p class="text-white">
+					SERVIÇO PARA A ÓRBITA DA TERRA, LUA, MARTE E ALÉM
+				</p>
+			</div>
+		</div>
+
+		<div class="container py-5 starship-characters">
+			<div class="row align-items-center justify-content-around">
+				<div class="spec-list starship-list" data-aos="fade-right" >
+					<h1 class="mb-4 text-white">STARSHIP</h1>
+					<h4 class="mb-3 text-light">VISÃO GERAL</h4>
+					<p class="text-light mb-4">
+						A nave espacial Starship da SpaceX e o foguete Super Heavy
+						coletivamente chamados de Starship representam um sistema de
+						transporte totalmente reutilizável, projetado para transportar
+						tripulação e carga para a órbita da Terra, a Lua, Marte e além. A
+						Starship é o veículo de lançamento mais poderoso do mundo já
+						desenvolvido, capaz de transportar até 150 toneladas métricas
+						totalmente reutilizáveis e 250 toneladas métricas descartáveis.
+					</p>
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">ALTURA</span>
+						<span>121 m / 397 ft</span>
+					</div>
+					<hr class="my-2 text-white" />
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">DIÂMETRO</span>
+						<span>9 m / 29.5 ft</span>
+					</div>
+					<hr class="my-2 text-white" />
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">CAPACIDADE DE CARGA ÚTIL</span>
+						<span>100-150 t (totalmente reutilizável)</span>
+					</div>
+					<hr class="my-2 text-white" />
+				</div>
+				<div class="col-md-6 text-center bg-image2"></div>
+			</div>
+		</div>
+
+		<div
+			class="starship-flight bg-image3 d-flex justify-content-center align-items-center w-100 vh-100"
+			onclick="closeVideo(event)"
+		>
+			<button class="btn-video" onclick="playVideo(event)">
+				<img src="./images-spacex-clone/icons8-reproduzir-100.png" alt="" />
+			</button>
+			<div class="video-container" id="videoContainer">
+				<iframe
+					id="youtubeVideo"
+					src="https://www.youtube.com/embed/921VbEMAwwY?si=Hn_ZiAR-QY71IN27"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
+			</div>
+		</div>
+
+		<div class="starship-infos">
+			<div
+				id="carouselExampleInterval"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="20000">
+						<div class="bg-image4 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-starship w-25">
+									<h5 class="text-white">CAPACIDADE DO STARSHIP</h5>
+									<p class="text-white">
+										Com o sistema de lançamento mais poderoso já desenvolvido, o
+										Starship poderá transportar ate 100 pessoas em voos
+										interplanetários de longa duração. O starship também ajudará
+										a permitir a entrega de satélites, o desenvolvimento de uma
+										base lunar e o transporte ponto a ponto aqui na Terra.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="20000">
+						<div class="vh-100 w-100 video-section">
+							<video class="video-background" autoplay muted loop>
+								<source
+									src="./images-spacex-clone/starship/voo-starship-2.mp4"
+									type="video/mp4"
+								/>
+								Seu navegador não suporta vídeos em HTML5.
+							</video>
+							<div class="content-overlay">
+								<div class="text-starship w-25">
+									<h5 class="text-white">ENTREGA DE CARGA ÚTIL</h5>
+									<p class="text-white">
+										O starship foi projetado para entregar cargas úteis mais
+										longe e a um custo menor por lançamento do que nossos atuais
+										veículos Falcon. Com um compartilhamento de carga útil maior
+										do que qualquer carenagem atualmente em operação ou
+										desenvolvimento, o Starship permitirá o transporte de muitos
+										satélites, grandes telescópios espaciais e quantidades
+										significativas de carga para a órbita da Terra, Lua, Marte e
+										além.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="20000">
+						<div class="bg-image5 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-starship w-25">
+									<h5 class="text-white">MISSÕES LUNARES</h5>
+									<p class="text-white">
+										Desenvolver uma base lunar para dar suporte à futura
+										exploração espacial requer o transporte de grandes
+										quantidades de carga para a superfície da Lua. O starship
+										foi projetado para transportar esses blocos de construção,
+										permitindo ainda mais a pesquisa e o desenvolvimento de voos
+										espaciais humanos. A SpaceX está fornecendo o módulo lunar
+										que retornará os astronautas à superficie da Lua pela
+										primeira vez em 50 anos sob as missões Artemis da NASA.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="20000">
+						<div class="bg-image6 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-starship w-25">
+									<h5 class="text-white">TRANSPORTE INTERPLANETÁRIO</h5>
+									<p class="text-white">
+										Construir cidades em Marte exigirá entrega acessível de
+										quantidades significativas de carga e tripulação. O sistema
+										Starship totalmente reutilizável usa transferência de
+										propelente em órbita para permitir o transporte de até 100
+										pessoas para Marte ou outros destinos distantes.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="20000">
+						<div class="bg-image7 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-starship w-25">
+									<h5 class="text-white">TRANSPORTE TERRA-TERRA</h5>
+									<p class="text-white">
+										Imagine viajar para qualquer lugar do mundo em uma hora ou
+										menos. Com o Starship e o Super Heavy, a maioria das viagens
+										internacionais poderia ser concluída em menos de 30 minutos.
+										Além da velocidade muito maior, um grande benefício de
+										viajar para fora da atmosfera da Terra é a ausênsia de
+										atrito, bem como turbulência e clima.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleInterval"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleInterval"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next </span>
+				</button>
+			</div>
+		</div>
+
+		<section class="video-section">
+			<video id="video" class="video-background" autoplay muted loop>
+				<source
+					src="./images-spacex-clone/starship/voo-starship-1.mp4"
+					type="video/mp4"
+				/>
+				Seu navegador não suporta vídeos em HTML5.
+			</video>
+
+			<div class="content-overlay">
+				<div class="text-white w-25 text-starship" data-aos="fade-right">
+					<h5>RECARGA EM ÓRBITAS</h5>
+					<p>
+						O Starship alavanca veículos-tanque (essencialmente a nave espacial
+						Starship menos as janelas) para reabastecer a nave espacial Starship
+						em órbita baixa da Terra antes de partir para Marte. O
+						reabastecimento em órbita permite o transporte de até 100 toneladas
+						até Marte. E se a nave-tanque tiver alta capacidade de reutilização,
+						o custo primário é apenas o do oxigênio e do metano, que é
+						extremamente baixo.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="bg-image8 vh-100 w-100">
+			<div class="text-starbase text-white w-25" data-aos="fade-right">
+				<h5>STARBASE</h5>
+				<p>
+					O desenvolvimento e a fabricação da Starship ocorrem na Starbase, um
+					dos primeiros portos espaciais comerciais do mundo projetados para
+					missões orbitais.
+				</p>
+				<button class="btn btn-outline-light p-3">ASSISTIR AO VÍDEO</button>
+			</div>
+		</div>
+
+		<footer
+			class="footer text-white d-flex justify-content-center align-items-center gap-5 pt-3"
+		>
+			<p>SPACEX 2025</p>
+			<p>POLÍTICA DE PRIVACIDADE</p>
+			<p>FEITO POR EDUARDO DEBARBA</p>
+		</footer>
+		<script src="./starship.js"></script>
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

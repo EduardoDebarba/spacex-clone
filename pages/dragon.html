@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SpaceX - Dragon</title>
+		<link
+			rel="shortcut icon"
+			href="../spacex-clone/images-spacex-clone/favicon-spacex.ico"
+			type="image/x-icon"
+		/>
+		<!-- Link Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap/dist/css/bootstrap.css"
+		/>
+		<!-- Link Boostrap Icons -->
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="dragon.css" />
+		<!-- Link Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Link Lib Animation -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body>
+		<header class="header w-100 d-flex justify-content-center">
+			<nav
+				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center p-1"
+			>
+				<div class="d-flex align-items-center justify-content-center w-100">
+					<a href="main.html">
+						<img
+							class="img-logo-nav"
+							src="./images-spacex-clone/SpaceX-White-Logo.wine.png"
+							alt="Logo SpaceX"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav pt-3">
+							<li class="nav-item">
+								<a
+									class="nav-link active text-white fw-bold"
+									aria-current="page"
+									href="falcon9.html"
+									>FALCON 9</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="falcon-heavy.html"
+									>FALCON HEAVY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="dragon.html"
+									>DRAGON</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="starship.html"
+									>STARSHIP</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="solar-system.html"
+									>SISTEMA SOLAR</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="artemis.html"
+									>VIAGEM PARA A LUA</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div
+			class="falcon-main bg-image1 d-flex justify-content-center align-items-center w-100 vh-100"
+		>
+			<div class="text-center" data-aos="fade-up">
+				<h1 class="text-white">DRAGON</h1>
+				<p class="text-white">ENVIANDO HUMANOS E CARGA PARA O ESPAÇO</p>
+			</div>
+		</div>
+
+		<div
+			class="dragon-flights d-flex justify-content-center align-items-center my-5 text-center"
+		>
+			<div class="mx-5">
+				<h1 class="text-white" id="value1">49</h1>
+				<p class="text-white">TOTAL LANÇAMENTOS</p>
+			</div>
+			<div class="mx-5">
+				<h1 class="text-white" id="value2">43</h1>
+				<p class="text-white">VISITAS A ISS</p>
+			</div>
+			<div class="mx-5">
+				<h1 class="text-white" id="value3">28</h1>
+				<p class="text-white">TOTAL REVOOS</p>
+			</div>
+		</div>
+
+		<div class="dragon row align-items-center justify-content-around">
+			<div class="spec-list dragon-list mx-5" data-aos="fade-up">
+				<h1 class="mb-4 text-white">DRAGON</h1>
+				<div class="text-white mb-5">
+					<p>
+						A nave espacial Dragon é capaz de transportar até 7 passageiros de e
+						para a órbita da Terra, e além. É a única nave espacial atualmente
+						voando que é capaz de retornar quantidades significativas de carga
+						para a Terra, e é a primeira nave espacial privada a levar humanos
+						para a estação espacial.
+					</p>
+				</div>
+				<div class="d-flex justify-content-between py-2 text-white">
+					<span class="fw-bold">ALTURA</span>
+					<span>8,1 m / 26,7 pés</span>
+				</div>
+				<hr class="my-2 text-white" />
+
+				<div class="d-flex justify-content-between py-2 text-white">
+					<span class="fw-bold">DIÂMETRO</span>
+					<span>4 m / 13 pés</span>
+				</div>
+				<hr class="my-2 text-white" />
+				<div class="d-flex justify-content-between py-2 text-white">
+					<span class="fw-bold">VOLUME DA NAVE ESPACIAL</span>
+					<span>9,3 m³ / 328 pés³</span>
+				</div>
+				<hr class="my-2 text-white" />
+				<div class="d-flex justify-content-between py-2 text-white">
+					<span class="fw-bold">VOLUME DO TRONCO</span>
+					<span>37 m³ / 1300 pés³</span>
+				</div>
+				<hr class="my-2 text-white" />
+				<div class="d-flex justify-content-between py-2 text-white">
+					<span class="fw-bold">LANÇAR CARGA ÚTIL EM MASSA</span>
+					<span>6.000 kg / 13.228 libras</span>
+				</div>
+				<hr class="my-2 text-white" />
+				<div class="d-flex justify-content-between py-2 text-white">
+					<span class="fw-bold">RETORNAR MASSA DE CARGA ÚTIL</span>
+					<span>3.000 kg / 6.614 libras</span>
+				</div>
+				<hr class="my-2 text-white" />
+			</div>
+			<div class="col-md-6 text-center">
+				<img
+					class="img-dragon"
+					src="./images-spacex-clone/dragon/dragon-2.jpg"
+					alt="dragon"
+				/>
+			</div>
+		</div>
+
+		<div
+			class="dragon-flight bg-image2 d-flex justify-content-center align-items-center w-100 vh-100"
+			onclick="closeVideo(event)"
+		>
+			<div class="text-white text-flight" data-aos="fade-up">
+				<p class="fw-bold">
+					VÍDEO <br />
+					<span class="fw-bold">INTERIOR DA CREW DRAGON</span>
+				</p>
+			</div>
+			<button class="btn-video" onclick="playVideo(event)">
+				<img src="./images-spacex-clone/icons8-reproduzir-100.png" alt="" />
+			</button>
+			<div class="video-container" id="videoContainer">
+				<iframe
+					id="youtubeVideo"
+					src="https://www.youtube.com/embed/xjSb_b4TtxI?si=P1o-rQZgw7xpaz2h"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
+			</div>
+		</div>
+
+		<div class="dragon-humans row align-items-center justify-content-around">
+			<div class="col-md-6 text-center">
+				<img
+					class="img-human"
+					src="./images-spacex-clone/dragon/dragon-4.jpg"
+					alt="astronauta-spacex"
+				/>
+			</div>
+			<div class="spec-list dragon-humans-trip mx-5" data-aos="fade-up">
+				<h2 class="mb-4 text-white">LEVANDO HUMANOS AO ESPAÇO</h2>
+					<p class="text-white mb-4">
+						Em 2020, a SpaceX devolveu aos Estados Unidos a capacidade de
+						transportar astronautas da NASA de e para a Estação Espacial
+						Internacional em veículos americanos pela primeira vez desde 2011.
+						Além de transportar astronautas ao espaço para a NASA, a nave
+						espacial Dragon da SpaceX também pode transportar astronautas
+						comerciais para a órbita da Terra, para a ISS ou além.
+					</p>
+					<button class="btn btn-outline-light p-3">SAIBA MAIS</button>
+			</div>
+		</div>
+
+		<div class="container pt-5">
+			<div class="row align-items-center justify-content-around">
+				<div class="spec-list dragon-list mx-5" data-aos="fade-up">
+					<h2 class="text-white">MOTORES</h2>
+					<h1 class="mb-4 text-white">DRACO</h1>
+					<div class="text-white mb-5">
+						<p>
+							A nave espacial Dragon é equipada com 16 propulsores Draco usados
+							​​para orientar a nave espacial durante a missão, incluindo
+							manobras de apogeu/perigeu, ajuste de órbita e controle de
+							atitude. Cada propulsor Draco é capaz de gerar 90 libras de força
+							no vácuo do espaço.
+						</p>
+					</div>
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">NÚMERO DE MOTORES</span>
+						<span>16</span>
+					</div>
+					<hr class="my-2 text-white" />
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">IMPULSO NO VÁCUO</span>
+						<span>400 N / 90 lbf</span>
+					</div>
+					<hr class="my-2 text-white" />
+				</div>
+				<div class="col-md-6 text-center">
+					<img
+						class="draco-img"
+						src="./images-spacex-clone/dragon/draco-engine.png"
+						alt=""
+					/>
+				</div>
+			</div>
+		</div>
+
+		<div class="dragon-landing row align-items-center justify-content-around">
+			<div class="spec-list dragon-landing-trip mx-5" data-aos="fade-up">
+				<h1 class="mb-4 text-white">SISTEMA DE PARAQUEDAS DRAGON</h1>
+					<p class="text-white mb-4">
+						A nave espacial Dragon é equipada com dois paraquedas drogue para
+						estabilizá-la após a reentrada e quatro paraquedas principais para
+						desacelerar ainda mais a nave antes do pouso.
+					</p>
+					<button class="btn btn-outline-light p-3 mt-2">SAIBA MAIS</button>
+			</div>
+			<div class="col-md-6 text-center">
+				<img
+					class="img-landing"
+					src="./images-spacex-clone/dragon/dragon-5.jpg"
+					alt=""
+				/>
+			</div>
+		</div>
+
+		<img
+			src="./images-spacex-clone/dragon/dragon-6.jpg"
+			alt=""
+			class="img-final"
+		/>
+
+		<footer
+			class="footer text-white d-flex justify-content-center align-items-center gap-5 pt-3"
+		>
+			<p>SPACEX 2025</p>
+			<p>POLÍTICA DE PRIVACIDADE</p>
+			<p>FEITO POR EDUARDO DEBARBA</p>
+		</footer>
+		<script src="./dragon.js"></script>
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

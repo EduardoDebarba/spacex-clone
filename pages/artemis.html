@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="../spacex-clone/images-spacex-clone/spacex_logo_icon_144865.png"
+			type="image/x-icon"
+		/>
+		<!-- Link Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap/dist/css/bootstrap.css"
+		/>
+		<!-- Link Boostrap Icons -->
+		<link
+			rel="stylesheet"
+			href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+		/>
+		<link rel="stylesheet" href="artemis.css" />
+		<!-- Link Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Link Lib Animation -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<title>SpaceX - Missão Artemis</title>
+	</head>
+	<body>
+		<header class="header w-100 d-flex justify-content-center">
+			<nav
+				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center"
+			>
+				<div class="d-flex align-items-center justify-content-center w-100">
+					<a href="main.html">
+						<img class="img-logo-nav"
+							src="./images-spacex-clone/SpaceX-White-Logo.wine.png"
+							alt="Logo SpaceX"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav pt-3">
+                            <li class="nav-item">
+                                <a class="nav-link text-white fw-bold" href="falcon9.html">FALCON 9</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="falcon-heavy.html" class="nav-link text-white fw-bold">FALCON HEAVY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="dragon.html" class="nav-link text-white fw-bold">DRAGON</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="starship.html" class="nav-link text-white fw-bold">STARSHIP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="solar-system.html" class="nav-link text-white fw-bold">SISTEMA SOLAR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="artemis.html" class="nav-link text-white fw-bold">VIAGEM PARA A LUA</a>
+                            </li>
+                        </ul>
+                    </div>
+				</div>
+			</nav>
+		</header>
+        <div class="bg-image1 d-flex justify-content-center align-items-center w-100 vh-100">
+            <div class="text-center" data-aos="fade-up">
+                <h1 class="text-white">MISSÃO ARTEMIS</h1>
+                <h5 class="text-white">EXPLORANDO A LUA PARA ALCANÇAR MARTE</h5>
+            </div>
+        </div>
+
+        <div class="artemis row align-items-center justify-content-center vh-100">
+            <div class="spec-list artemis-list mx-5" data-aos="fade-right">
+                <h2 class="text-white mb-3">ARTEMIS</h2>
+                <div class="text-white mb-5">
+                    <p>A Missão Artemis marca o início de uma nova era na exploração espacial. Liderada pela NASA, em parceria com agências internacionais e a SpaceX, essa iniciativa ambiciosa tem como objetivo levar a humanidade de volta à Lua de forma inovadora e sustentável.</p>
+                    <p>Com a promessa de pousar a primeira mulher na superfície lunar, Artemis busca expandir os limites da ciência, tecnologia e exploração. Além disso, a missão estabelece as bases para futuras viagens interplanetárias, incluindo a tão esperada jornada a Marte.</p>
+                    <p>Mais do que uma missão científica, Artemis é um símbolo de colaboração global, inovação e inspiração para novas gerações. Seu nome, inspirado na deusa grega Artemis, irmã gêmea de Apolo, reflete um compromisso renovado em explorar o espaço com diversidade e equidade.</p>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="../spacex-clone/images-spacex-clone/artemis/Artemis_program_(original_with_wordmark).svg.png" alt="logo-artemis" class="img-artemis">
+            </div>
+        </div>
+
+        <div class="tripulation row align-items-center justify-content-center vh-100">
+            <div class="col-md-6 text-center">
+                <img src="../spacex-clone/images-spacex-clone/artemis/jsc2023e016432_alt4-scaled.jpg" alt="" class="img-artemis-tripulation">
+            </div>
+            <div class="spec-list artemis-tripulation mx-5" data-aos="fade-left">
+                <h2 class="text-white mb-3">TRIPULAÇÃO</h2>
+                <div class="text-white mb-5">
+                    <p>A tripulação da Artemis representa o espírito de exploração, inovação e colaboração internacional que define a nova era da exploração espacial. Composta por quatro astronautas altamente qualificados, essa equipe histórica será a primeira a viajar ao redor da Lua desde a missão Apollo 17, em 1972. Reid Wiseman, comandante da missão, traz sua vasta experiência em operações espaciais e liderança. Victor Glover, piloto da cápsula Orion, contribuirá com suas habilidades excepcionais de navegação e sua experiência em missões de longa duração na Estação Espacial Internacional (ISS). Christina Hammock Koch, especialista de missão, é reconhecida por seus recordes e feitos históricos, como a primeira caminhada espacial exclusivamente feminina, além de seu papel pioneiro em estudos e operações em ambientes extremos. Jeremy Hansen, também especialista de missão, representa a colaboração internacional como o primeiro canadense a participar de uma missão lunar.</p>
+                    <p>Abaixo veja mais informações sobre cada tripulante</p>
+                </div>
+            </div>
+        </div>
+
+      
+		<div class="artemis-trip">
+			<div
+				id="carouselExampleInterval"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					
+					<div class="carousel-item active" data-bs-interval="5000">
+						<div class="container pt-5 artemis-characters  ">
+							<div class="row align-items-center justify-content-around">
+								<div class="spec-list artemis-list-text mx-5 artemis-trip-text" data-aos="fade-up">
+									<h2 class=" text-white">REID WISEMAN</h2>
+									<h5 class="mb-4 text-white">COMANDANTE DA MISSÃO<h5>
+										<p class="text-white">
+											Astronauta veterano e ex-piloto de teste da Marinha dos Estados Unidos. Nascido em Baltimore, ele ingressou na NASA em 2009 e acumulou uma vasta experiência em missões espaciais. Wiseman atuou como engenheiro de voo na Estação Espacial Internacional (ISS) durante a Expedição 40/41, onde passou 165 dias em órbita, realizando experimentos científicos e duas caminhadas espaciais. Ele também ocupou o cargo de Chefe do Escritório de Astronautas, supervisionando a seleção e o treinamento de astronautas para futuras missões.
+                    
+										</p>
+                                        <p class="text-white">Na Artemis, Reid Wiseman será o responsável por liderar a tripulação, garantindo o sucesso operacional da missão e a segurança dos tripulantes enquanto realizam a histórica viagem ao redor da Lua.</p>
+								</div>
+								<div class="col-md-6 text-center">
+									<img
+										class="img-trip"
+										src="./images-spacex-clone/artemis/ReidWiseman.jpg"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <div class="carousel-item" data-bs-interval="5000">
+						<div class="container pt-5 artemis-characters  ">
+							<div class="row align-items-center justify-content-around">
+								<div class="spec-list artemis-list-text mx-5 artemis-trip-text" data-aos="fade-up">
+									<h2 class=" text-white">VICTOR GLOVER</h2>
+									<h5 class="mb-4 text-white">PILOTO<h5>
+										<p class="text-white">
+											Comandante naval e piloto de teste altamente qualificado, com uma carreira repleta de conquistas. Natural da Califórnia, ele ingressou na NASA em 2013 e voou como piloto da missão Crew-1, a primeira operação de longa duração da SpaceX para a ISS. Durante sua estadia de 168 dias na ISS, Glover conduziu inúmeras pesquisas científicas, realizou quatro caminhadas espaciais e desempenhou um papel vital no avanço da exploração espacial comercial.
+										</p>
+                                        <p class="text-white">Como piloto da Artemis, ele será responsável pelo controle da espaçonave Orion, contribuindo para a navegação precisa e a execução das manobras críticas da missão.</p>
+								</div>
+								<div class="col-md-6 text-center">
+									<img
+										class="img-trip"
+										src="./images-spacex-clone/artemis/VictorGlover.jpg"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <div class="carousel-item" data-bs-interval="5000">
+						<div class="container pt-5 artemis-characters  ">
+							<div class="row align-items-center justify-content-around">
+								<div class="spec-list artemis-list-text mx-5 artemis-trip-text" data-aos="fade-up">
+									<h2 class=" text-white">CHRISTINA HAMMOCK KOCH</h2>
+									<h5 class="mb-4 text-white">ESPECIALISTA DE MISSÃO<h5>
+										<p class="text-white">
+											Engenheira elétrica e astronauta recordista. Natural da Carolina do Norte, ela já trabalhou em alguns dos locais mais extremos do planeta, incluindo a Antártica e o Ártico, onde desenvolveu tecnologias para ambientes hostis. Em 2013, Koch foi selecionada como astronauta pela NASA, e em 2019, ela realizou um feito histórico ao participar da primeira caminhada espacial exclusivamente feminina.
+                                        
+										</p>
+                                        <p class="text-white">Com um total de 328 dias no espaço durante uma única missão, ela detém o recorde de maior tempo contínuo no espaço por uma mulher. Na Artemis, Koch será responsável por conduzir experimentos científicos e auxiliar em operações críticas a bordo da cápsula Orion.</p>
+								</div>
+								<div class="col-md-6 text-center">
+									<img
+										class="img-trip"
+										src="./images-spacex-clone/artemis/ChristinaHammockKoch.png"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+
+                    <div class="carousel-item" data-bs-interval="5000">
+						<div class="container pt-5 artemis-characters  ">
+							<div class="row align-items-center justify-content-around">
+								<div class="spec-list artemis-list-text mx-5 artemis-trip-text" data-aos="fade-up">
+									<h2 class=" text-white">JEREMY HANSEN</h2>
+									<h5 class="mb-4 text-white">ESPECIALISTA DE MISSÃO<h5>
+										<p class="text-white">
+											Astronauta da Agência Espacial Canadense (CSA) e um dos principais representantes do Canadá no programa Artemis. Ele é um ex-piloto de caça das Forças Armadas Canadenses, com vasta experiência em operações aéreas de alta complexidade. Hansen também contribuiu significativamente para o treinamento de astronautas e participou do desenvolvimento de estratégias para futuras missões espaciais.
+										</p>
+                                        <p class="text-white">Nascido em Ontário, Hansen será o primeiro canadense a viajar para além da órbita terrestre baixa, marcando um momento histórico para o Canadá. Na Artemis, ele desempenhará um papel essencial em operações científicas e de suporte.</p>
+								</div>
+								<div class="col-md-6 text-center">
+									<img
+										class="img-trip"
+										src="./images-spacex-clone/artemis/JeremyHansen.jpg"
+										alt=""
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleInterval"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleInterval"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next </span>
+				</button>
+			</div>
+		</div>
+
+        <div class="py-5 artemis-characters-sls">
+			<div class="row align-items-center justify-content-around">
+				<div class="spec-list artemis-list" data-aos="fade-up">
+					<h2 class="text-white">SPACE LAUCH SYSTEM (SLS)</h2>
+					<h4 class="mb-3 text-light">VISÃO GERAL</h4>
+					<p class="text-starship text-light mb-4">
+						O Space Launch System (SLS) é o foguete projetado pela NASA para as missões do programa Artemis, incluindo a Artemis II. Representando o ápice da engenharia aeroespacial, o SLS é um veículo de lançamento superpesado capaz de transportar cargas úteis significativas e tripulações além da órbita terrestre baixa, abrindo caminho para a exploração lunar sustentável e futuras missões a Marte. Sua configuração para a Artemis, combina força bruta e tecnologia avançada, garantindo segurança e eficiência para a tripulação.
+					</p>
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">ALTURA</span>
+						<span>98 m / 322 ft</span>
+					</div>
+					<hr class="my-2 text-white" />
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">DIÂMETRO</span>
+						<span>8.4 m / 27.6 ft</span>
+					</div>
+					<hr class="my-2 text-white" />
+
+					<div class="d-flex justify-content-between py-2 text-white">
+						<span class="fw-bold">CAPACIDADE DE CARGA ÚTIL</span>
+						<span>27 t</span>
+					</div>
+					<hr class="my-2 text-white" />
+				</div>
+				<div class="col-md-6 text-center">
+                    <img src="../spacex-clone/images-spacex-clone/artemis/space-system.jpg" alt="" class="img-artemis-tripulation">
+                </div>
+			</div>
+		</div>
+
+		<div class="artemis-infos">
+			<div
+				id="carouselExampleInterval2"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="5000">
+						<div class="bg-image2 vh-100 w-100 bg-invert">
+							<div class="content-overlay">
+								<div class="text-artemis w-25">
+									<h5 class="text-white">REABASTECIMENTO DO STARSHIP</h5>
+									<p class="text-white">
+										Antes de atingir a órbita lunar, o Starship precisará reabastecer. O plano é usar um navio-tanque do Starship, carregado com propelente e aguardando a chegada de sua contraparte de pouso. As duas espaçonaves são projetadas para se encontrarem na órbita baixa da Terra, acoplando uma à outra enquanto o navio-tanque transfere propelente para a Starship para permitir que ela continue sua jornada em direção à Lua.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="5000">
+						<div class="bg-image3 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-artemis w-25">
+									<h5 class="text-white">ACOPLAMENTO DA NAVE ORION AO STARSHIP</h5>
+									<p class="text-white">
+										Com o Starship totalmente abastecido irá para a órbita lunar, onde aguardará a chegada da cápsula da tripulação Orion com quatro astronautas a bordo. O Starship atracará diretamente na Orion para que dois astronautas possam ser transferidos para o módulo lunar, enquanto o resto da tripulação aguarda a bordo da Orion na órbita lunar.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="5000">
+						<div class="bg-image4 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-artemis w-25">
+									<h5 class="text-white">DESCIDA NA LUA</h5>
+									<p class="text-white">
+										Dois astronautas descerão à superfície da Lua, viajando no elevador do Starship localizado na parte inferior do Sistema de Pouso Humano. O Starship tem aproximadamente a mesma altura de um prédio de 15 andares, com cerca de 164 pés (50 metros) de altura. O elevador também será usado para transportar carga entre a superfície lunar e o módulo de pouso enquanto os dois astronautas trabalham para coletar amostras preciosas.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-item" data-bs-interval="5000">
+						<div class="bg-image5 vh-100 w-100">
+							<div class="content-overlay">
+								<div class="text-artemis w-25">
+									<h5 class="text-white">MISSÕES LUNARES</h5>
+									<p class="text-white">
+										Desenvolver uma base lunar para dar suporte à futura
+										exploração espacial requer o transporte de grandes
+										quantidades de carga para a superfície da Lua. O starship
+										foi projetado para transportar esses blocos de construção,
+										permitindo ainda mais a pesquisa e o desenvolvimento de voos
+										espaciais humanos. A SpaceX está fornecendo o módulo lunar
+										que retornará os astronautas à superficie da Lua pela
+										primeira vez em 50 anos sob as missões Artemis da NASA.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleInterval2"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleInterval2"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next </span>
+				</button>
+			</div>
+		</div>
+
+		<footer class="footer mt-3 text-white d-flex justify-content-center align-items-center gap-5">
+			<p>SPACEX 2025</p>
+			<p>POLÍTICA DE PRIVACIDADE</p>
+			<p>FEITO POR EDUARDO DEBARBA</p>
+		</footer>
+
+		<script src="./artemis.js"></script>
+		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
