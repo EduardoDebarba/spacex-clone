@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clone - SpaceX</title>
+		<link
+			rel="shortcut icon"
+			href="/assets/images/favicon-spacex.ico"
+			type="image/x-icon"
+		/>
+
+		<!-- Link Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="./node_modules/bootstrap/dist/css/bootstrap.css"
+		/>
+
+		<!-- Link Boostrap Icons -->
+		<link
+			rel="stylesheet"
+			href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+		/>
+        <!-- Link Css -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+
+		<!-- Link Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Link Lib Animation -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body>
+		<header class="header w-100 d-flex justify-content-center">
+			<nav
+				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center p-1"
+			>
+				<div class="d-flex align-items-center justify-content-center w-100">
+					<a href="/index.html">
+						<img
+							class="img-logo-nav"
+							src="./assets/images/SpaceX-White-Logo.wine.png"
+							alt="Logo SpaceX"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav pt-3">
+							<li class="nav-item">
+								<a
+									class="nav-link active text-white fw-bold"
+									aria-current="page"
+									href="/pages/falcon9.html"
+									>FALCON 9</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="/pages/falcon-heavy.html"
+									>FALCON HEAVY</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="/pages/dragon.html"
+									>DRAGON</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="/pages/starship.html"
+									>STARSHIP</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="/pages/solar-system.html"
+									>SISTEMA SOLAR</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white fw-bold" href="/pages/artemis.html"
+									>VIAGEM PARA A LUA</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<section class="video-section vh-100">
+			<video id="video" class="video-background" autoplay muted loop>
+				<source src="./assets/videos/main/main-1.mp4" type="video/mp4" />
+				Seu navegador não suporta vídeos em HTML5.
+			</video>
+
+				<div class="content-overlay container" data-aos="fade-right">
+					<h5>LANÇAMENTO RECENTE</h5>
+					<p>VOO DE TESTE DO STARSHIP</p>
+					<a href="https://www.youtube.com/watch?v=hI9HQfCAw64" target="_blank"><button class="btn btn-outline-light p-3">ASSISTIR</button></a>
+				</div>
+		</section>
+
+		<div class="bg-image1 vh-100 w-100">
+				<div class="content-overlay container" data-aos="fade-right">
+					<h5>LANÇAMENTO RECENTE</h5>
+					<p>MISSÃO STARLINK</p>
+					<a href="https://twitter.com/SpaceX/status/1865078771809947915?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1865078771809947915%7Ctwgr%5Ec7d151cca59e62f612af5013f61fbe0e09211932%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.spacex.com%2Flaunches%2Fmission%2F%3FmissionId%3Dsl-12-5" target="_blank"><button class="btn btn-outline-light p-3">ASSISTIR</button></a>
+				</div>
+		</div>
+
+		<div class="bg-image2 vh-100 w-100">
+				<div class="content-overlay container" data-aos="fade-right">
+					<p>
+						AVANÇANDO O VOO <br />
+						ESPACIAL HUMANO
+					</p>
+					<a href="https://www.spacex.com/updates/#eva-suit" target="_blank"><button class="btn btn-outline-light p-3">SAIBA MAIS</button></a>
+				</div>
+		</div>
+
+		<div class="bg-image3 vh-100 w-100">
+				<div class="content-overlay container" data-aos="fade-right">
+					<h5>PRÓXIMOS LANÇAMENTOS</h5>
+					<p>MISSÃO STARLINK</p>
+					<a href="https://www.youtube.com/watch?v=iFY7mtzsNKo"><button class="btn btn-outline-light p-3">SAIBA MAIS</button></a>
+				</div>
+		</div>
+
+		<div class="bg-image4 vh-100 w-100">
+				<div class="content-overlay container" data-aos="fade-right">
+					<p>
+						PARA TORNAR A VIDA <br />
+						MULTIPLANETÁRIA
+					</p>
+					<a href="https://www.spacex.com/updates/#make-life-multiplanetary" target="_blank"><button class="btn btn-outline-light p-3">SAIBA MAIS</button></a>
+				</div>
+		</div>
+
+		<footer
+			class="footer text-white d-flex justify-content-center align-items-center gap-5 pt-3"
+		>
+			<p>SPACEX 2025</p>
+			<p>POLÍTICA DE PRIVACIDADE</p>
+			<p>FEITO POR EDUARDO DEBARBA</p>
+		</footer>
+		<script src="/assets/js/main.js"></script>
+		<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

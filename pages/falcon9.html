@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
 			rel="shortcut icon"
-			href="../spacex-clone/images-spacex-clone/favicon-spacex.ico"
+			href="/assets/images/favicon-spacex.ico"
 			type="image/x-icon"
 		/>
 		<!-- Link Bootstrap -->
@@ -18,7 +18,7 @@
 			rel="stylesheet"
 			href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 		/>
-		<link rel="stylesheet" href="falcon9.css" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
 		<!-- Link Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,10 +36,10 @@
 				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center"
 			>
 				<div class="d-flex align-items-center justify-content-center w-100">
-					<a href="main.html">
+					<a href="/index.html">
 						<img
 							class="img-logo-nav"
-							src="./images-spacex-clone/SpaceX-White-Logo.wine.png"
+							src="/assets/images/SpaceX-White-Logo.wine.png"
 							alt="Logo SpaceX"
 						/>
 					</a>
@@ -60,32 +60,32 @@
 								<a
 									class="nav-link active text-white fw-bold"
 									aria-current="page"
-									href="falcon9.html"
+									href="/pages/falcon9.html"
 									>FALCON 9</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="falcon-heavy.html"
+								<a class="nav-link text-white fw-bold" href="/pages/falcon-heavy.html"
 									>FALCON HEAVY</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="dragon.html"
+								<a class="nav-link text-white fw-bold" href="/pages/dragon.html"
 									>DRAGON</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="starship.html"
+								<a class="nav-link text-white fw-bold" href="/pages/starship.html"
 									>STARSHIP</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="solar-system.html"
+								<a class="nav-link text-white fw-bold" href="/pages/solar-system.html"
 									>SISTEMA SOLAR</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="artemis.html"
+								<a class="nav-link text-white fw-bold" href="/pages/artemis.html"
 									>VIAGEM PARA A LUA</a
 								>
 							</li>
@@ -96,7 +96,7 @@
 		</header>
 
 		<div
-			class="falcon-main bg-image1 d-flex justify-content-center align-items-center w-100 vh-100"
+			class="falcon-main bg-image5 d-flex justify-content-center align-items-center w-100 vh-100"
 		>
 			<div class="text-center" data-aos="fade-up">
 				<h1 class="text-white">FALCON 9</h1>
@@ -122,7 +122,7 @@
 		</div>
 
 		<div
-			class="falcon-informations bg-image2 d-flex justify-content-end align-items-center w-100 vh-100"
+			class="falcon-informations bg-image6 d-flex justify-content-end align-items-center w-100 vh-100"
 		>
 			<div class="text-about-falcon text-white" data-aos="fade-left">
 				<p>
@@ -177,12 +177,12 @@
 					</div>
 					<hr class="my-2 text-white" />
 				</div>
-				<div class="col-md-6 text-center bg-image3"></div>
+				<div class="col-md-6 text-center bg-image7"></div>
 			</div>
 		</div>
 
 		<div
-			class="falcon-flight bg-image4 d-flex justify-content-center align-items-center w-100 vh-100"
+			class="falcon-flight bg-image8 d-flex justify-content-center align-items-center w-100 vh-100"
 			onclick="closeVideo(event)"
 		>
 			<div class="text-white text-flight" data-aos="fade-up">
@@ -192,7 +192,7 @@
 				</p>
 			</div>
 			<button class="btn-video" onclick="playVideo(event)">
-				<img src="./images-spacex-clone/icons8-reproduzir-100.png" alt="" />
+				<img src="/assets/images/main/icons8-reproduzir-100.png" alt="" />
 			</button>
 			<div class="video-container" id="videoContainer">
 				<iframe
@@ -246,7 +246,7 @@
 								<div class="col-md-6 text-center">
 									<img
 										class="img-merlim w-50"
-										src="./images-spacex-clone/merlim.png"
+										src="/assets/images/main/merlim.png"
 										alt=""
 									/>
 								</div>
@@ -287,7 +287,7 @@
 								<div class="col-md-6 text-center">
 									<img
 										class="img-merlim-2"
-										src="./images-spacex-clone/merlim-2.png"
+										src="/assets/images/main/merlim-2.png"
 										alt=""
 									/>
 								</div>
@@ -316,7 +316,7 @@
 			</div>
 		</div>
 
-		<div class="bg-image5 vh-100 w-100"></div>
+		<div class="bg-image9 vh-100 w-100"></div>
 
 		<footer
 			class="footer mt-3 text-white d-flex justify-content-center align-items-center gap-5"
@@ -325,7 +325,7 @@
 			<p>POLÍTICA DE PRIVACIDADE</p>
 			<p>FEITO POR EDUARDO DEBARBA</p>
 		</footer>
-		<script src="./falcon9.js"></script>
+		<script src="/assets/js/falcon9.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>

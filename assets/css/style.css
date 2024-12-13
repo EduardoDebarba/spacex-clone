@@ -1,0 +1,282 @@
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.img-logo-nav {
+  width: 200px;
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+}
+
+.content-overlay {
+  position: absolute;
+  bottom: 8rem;
+  left: 6rem;
+  z-index: 1;
+}
+
+.content-overlay p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.bg-image1 {
+  background-image: url("/assets/images/main/main-2.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image2 {
+  background-image: url("/assets/images/main/53698254934_61e3d9c714_o.jpg");
+  background-size: contain;
+  position: relative;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.bg-image3 {
+  background-image: url("/assets/images/main/52055543783_d496d81a5d_o.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image4 {
+  background-image: url("/assets/images/main/main-5.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image5 {
+  background-image: url("/assets/images/falcon9/falcon9-1.jpg");
+  background-size: cover;
+}
+
+.bg-image6 {
+  background-image: url("/assets/images/falcon9/falcon9-3.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.numbers-falcon > p {
+  font-size: 8rem;
+}
+
+.numbers-falcon span {
+  font-size: 3rem;
+}
+
+.text-about-falcon {
+  width: 30%;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-right: 10rem;
+}
+
+.bg-image7 {
+  background-image: url("/assets/images/falcon9/falcon9-2.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.falcon-characters {
+  height: 100vh;
+}
+
+.falcon-list {
+  width: 40%;
+}
+
+.falcon-list h1 {
+  font-size: 4rem;
+}
+
+.falcon-list h2 {
+  font-size: 1.8rem;
+}
+
+.bg-image8 {
+  background-image: url("/assets/images/falcon9/falcon-4.jpg");
+  background-size: cover;
+}
+
+.falcon-flight {
+  position: relative;
+}
+
+.btn-video {
+  background-color: transparent;
+  border-style: none;
+}
+
+.btn-video img {
+  width: 70%;
+}
+
+.video-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+  width: 85vw;
+  height: 95vh;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.text-flight {
+  position: absolute;
+  bottom: 70px;
+  left: 110px;
+}
+
+.falcon-flight p {
+  font-size: 1.2rem;
+}
+
+.falcon-flight span {
+  font-size: 2rem;
+}
+
+.falcon-raptor p {
+  text-align: justify;
+}
+
+.img-merlim-2 {
+  width: 35%;
+}
+
+.bg-image9 {
+  background-image: url("/assets/images/falcon9/falcon-6.jpeg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.bg-image10 {
+  background-image: url("/assets/images/falcon-heavy/falcon-heavy-1.jpg");
+  background-size: cover;
+}
+
+.heavy-list {
+  width: 40%;
+}
+
+.img-heavy {
+  width: 75%;
+}
+
+.heavy {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+
+.heavy-flight {
+  position: relative;
+}
+
+.btn-video {
+  background-color: transparent;
+  border-style: none;
+}
+
+.btn-video img {
+  width: 70%;
+}
+
+.video-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+  width: 85vw;
+  height: 95vh;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.text-flight {
+  position: absolute;
+  bottom: 70px;
+  left: 110px;
+}
+
+.heavy-flight p {
+  font-size: 1.2rem;
+}
+
+.heavy-flight span {
+  font-size: 2.5rem;
+}
+
+.bg-image11 {
+  background-image: url("/assets/images/falcon-heavy/40143096241_0324643b5e_o.jpg");
+  background-size: cover;
+}
+
+.heavy-landing {
+  width: 40%;
+  margin-right: 4rem;
+}
+
+.heavy-landing h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.heavy-2-landing {
+  margin-left: 4rem;
+}
+
+.heavy-list {
+  width: 40%;
+}
+
+.img-heavy-last {
+  width: 100%;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */

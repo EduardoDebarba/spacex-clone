@@ -1,0 +1,33 @@
+.video-background {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.bg-image1 {
+	background-image: url("/assets/images/main/main-2.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.bg-image2 {
+	background-image: url("/assets/images/main/53698254934_61e3d9c714_o.jpg");
+	background-size: contain;
+	position: relative;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.bg-image3 {
+	background-image: url("/assets/images/main/52055543783_d496d81a5d_o.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.bg-image4 {
+	background-image: url("/assets/images/main/main-5.jpg");
+	background-size: cover;
+	position: relative;
+}

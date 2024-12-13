@@ -6,7 +6,7 @@
 		<title>SpaceX - Falcon Heavy</title>
 		<link
 			rel="shortcut icon"
-			href="../spacex-clone/images-spacex-clone/favicon-spacex.ico"
+			href="/assets/images/favicon-spacex.ico"
 			type="image/x-icon"
 		/>
 		<!-- Link Bootstrap -->
@@ -19,7 +19,7 @@
 			rel="stylesheet"
 			href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 		/>
-		<link rel="stylesheet" href="falcon-heavy.css" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
 		<!-- Link Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,10 +36,10 @@
 				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center p-1"
 			>
 				<div class="d-flex align-items-center justify-content-center w-100">
-					<a href="main.html">
+					<a href="/index.html">
 						<img
 							class="img-logo-nav"
-							src="./images-spacex-clone/SpaceX-White-Logo.wine.png"
+							src="/assets/images/SpaceX-White-Logo.wine.png"
 							alt="Logo SpaceX"
 						/>
 					</a>
@@ -60,32 +60,32 @@
 								<a
 									class="nav-link active text-white fw-bold"
 									aria-current="page"
-									href="falcon9.html"
+									href="/pages/falcon9.html"
 									>FALCON 9</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="falcon-heavy.html"
+								<a class="nav-link text-white fw-bold" href="/pages/falcon-heavy.html"
 									>FALCON HEAVY</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="dragon.html"
+								<a class="nav-link text-white fw-bold" href="/pages/dragon.html"
 									>DRAGON</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="starship.html"
+								<a class="nav-link text-white fw-bold" href="/pages/starship.html"
 									>STARSHIP</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="solar-system.html"
+								<a class="nav-link text-white fw-bold" href="/pages/solar-system.html"
 									>SISTEMA SOLAR</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="artemis.html"
+								<a class="nav-link text-white fw-bold" href="/pages/artemis.html"
 									>VIAGEM PARA A LUA</a
 								>
 							</li>
@@ -96,7 +96,7 @@
 		</header>
 
 		<div
-			class="falcon-main bg-image1 d-flex justify-content-center align-items-center w-100 vh-100"
+			class="falcon-main bg-image10 d-flex justify-content-center align-items-center w-100 vh-100"
 		>
 			<div class="text-center" data-aos="fade-up">
 				<h1 class="text-white">FALCON HEAVY</h1>
@@ -169,14 +169,14 @@
 			<div class="col-md-6 text-center">
 				<img
 					class="img-heavy"
-					src="./images-spacex-clone/falcon-heavy/Falcon-Heavy-2.jpg"
+					src="/assets/images/falcon-heavy/Falcon-Heavy-2.jpg"
 					alt="falcon-heavy"
 				/>
 			</div>
 		</div>
 
 		<div
-			class="heavy-flight bg-image2 d-flex justify-content-center align-items-center w-100 vh-100"
+			class="heavy-flight bg-image11 d-flex justify-content-center align-items-center w-100 vh-100"
 			onclick="closeVideo(event)"
 		>
 			<div class="text-white text-flight" data-aos="fade-up">
@@ -189,7 +189,7 @@
 				</p>
 			</div>
 			<button class="btn-video" onclick="playVideo(event)">
-				<img src="./images-spacex-clone/icons8-reproduzir-100.png" alt="" />
+				<img src="/assets/images/main/icons8-reproduzir-100.png" alt="" />
 			</button>
 			<div class="video-container" id="videoContainer">
 				<iframe
@@ -210,7 +210,7 @@
 			<div class="col-md-6 text-center">
 				<video autoplay loop muted controls width="80%" poster="">
 					<source
-						src="./images-spacex-clone/falcon-heavy/falcon-heavy-4.mp4"
+						src="/assets/videos/falcon-heavy/falcon-heavy-4.mp4"
 						type="video/mp4"
 					/>
 					Seu navegador não suporta a tag de vídeo. Atualize para um navegador
@@ -258,7 +258,7 @@
 				<div class="col-md-6 text-center">
 					<img
 						class="img-merlim w-50"
-						src="./images-spacex-clone/merlim.png"
+						src="/assets/images/main/merlim.png"
 						alt="motor-merlim"
 					/>
 				</div>
@@ -266,7 +266,7 @@
 		</div>
 
 		<img
-			src="./images-spacex-clone/falcon-heavy/falcon-heavy-5.jpg"
+			src="/assets/images/falcon-heavy/falcon-heavy-5.jpg"
 			alt="falcon-heavy-lançamento"
 			class="img-heavy-last"
 		/>
@@ -278,7 +278,7 @@
 			<p>POLÍTICA DE PRIVACIDADE</p>
 			<p>FEITO POR EDUARDO DEBARBA</p>
 		</footer>
-		<script src="./falcon-heavy.js"></script>
+		<script src="/assets/js/falcon-heavy.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>

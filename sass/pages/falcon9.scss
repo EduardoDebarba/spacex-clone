@@ -1,0 +1,114 @@
+.bg-image5 {
+	background-image: url("/assets/images/falcon9/falcon9-1.jpg");
+	background-size: cover;
+}
+
+.bg-image6 {
+	background-image: url("/assets/images/falcon9/falcon9-3.jpg");
+	background-size: cover;
+}
+
+h1 {
+	font-size: 6rem;
+	font-weight: $font-weight;
+}
+
+.numbers-falcon > p {
+	font-size: 8rem;
+}
+
+.numbers-falcon span {
+	font-size: 3rem;
+}
+
+.text-about-falcon {
+	width: 30%;
+	font-size: 1.2rem;
+	text-align: justify;
+	margin-right: 10rem;
+}
+
+.bg-image7 {
+	background-image: url("/assets/images/falcon9/falcon9-2.jpg");
+	background-size: cover;
+	height: 80vh;
+	width: 40%;
+	border-radius: 10px;
+}
+
+.falcon-characters {
+	height: 100vh;
+}
+
+.falcon-list {
+	width: 40%;
+}
+
+.falcon-list h1 {
+	font-size: 4rem;
+}
+
+.falcon-list h2 {
+	font-size: 1.8rem;
+}
+
+.bg-image8 {
+	background-image: url("/assets/images/falcon9/falcon-4.jpg");
+	background-size: cover;
+}
+
+.falcon-flight {
+	position: relative;
+}
+
+.btn-video {
+	background-color: transparent;
+	border-style: none;
+}
+
+.btn-video img {
+	width: 70%;
+}
+
+.video-container {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+iframe {
+	width: 85vw;
+	height: 95vh;
+	border-radius: 8px;
+	transition: all 0.3s ease-in-out;
+	z-index: 1000;
+}
+
+.text-flight {
+	position: absolute;
+	bottom: 70px;
+	left: 110px;
+}
+
+.falcon-flight p {
+	font-size: 1.2rem;
+}
+
+.falcon-flight span {
+	font-size: 2rem;
+}
+
+.falcon-raptor p {
+	text-align: justify;
+}
+
+.img-merlim-2 {
+	width: 35%;
+}
+
+.bg-image9 {
+	background-image: url("/assets/images/falcon9/falcon-6.jpeg");
+	background-size: cover;
+}
