@@ -35,6 +35,37 @@ body {
   font-weight: 700;
 }
 
+.video-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+iframe {
+  width: 85vw;
+  height: 95vh;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.btn-video {
+  background-color: transparent;
+  border-style: none;
+}
+
+.btn-video img {
+  width: 70%;
+}
+
+.text-flight {
+  position: absolute;
+  bottom: 70px;
+  left: 110px;
+}
+
 .video-background {
   position: relative;
   width: 100%;
@@ -132,37 +163,6 @@ h1 {
   position: relative;
 }
 
-.btn-video {
-  background-color: transparent;
-  border-style: none;
-}
-
-.btn-video img {
-  width: 70%;
-}
-
-.video-container {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-iframe {
-  width: 85vw;
-  height: 95vh;
-  border-radius: 8px;
-  transition: all 0.3s ease-in-out;
-  z-index: 1000;
-}
-
-.text-flight {
-  position: absolute;
-  bottom: 70px;
-  left: 110px;
-}
-
 .falcon-flight p {
   font-size: 1.2rem;
 }
@@ -221,28 +221,6 @@ h1 {
   width: 70%;
 }
 
-.video-container {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-iframe {
-  width: 85vw;
-  height: 95vh;
-  border-radius: 8px;
-  transition: all 0.3s ease-in-out;
-  z-index: 1000;
-}
-
-.text-flight {
-  position: absolute;
-  bottom: 70px;
-  left: 110px;
-}
-
 .heavy-flight p {
   font-size: 1.2rem;
 }
@@ -277,6 +255,398 @@ iframe {
 .img-heavy-last {
   width: 100%;
   height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.bg-image12 {
+  background-image: url("/assets/images/dragon/dragon-1.jpg");
+  background-size: cover;
+}
+
+.dragon-list {
+  width: 40%;
+}
+
+.dragon-list h1 {
+  font-size: 4rem;
+}
+
+.dragon-list h2 {
+  font-size: 1.8rem;
+}
+
+.img-dragon {
+  width: 100%;
+}
+
+.dragon,
+.dragon-landing {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+
+.dragon-flight {
+  position: relative;
+}
+
+.dragon-flight p {
+  font-size: 1.2rem;
+}
+
+.dragon-flight span {
+  font-size: 2rem;
+}
+
+.bg-image13 {
+  background-image: url("/assets/images/dragon/dragon-3.jpg");
+  background-size: cover;
+}
+
+.dragon-humans-trip {
+  width: 40%;
+}
+
+.dragon-humans-trip h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.img-human {
+  width: 90%;
+  margin-left: 6rem;
+}
+
+.draco-img {
+  width: 40%;
+}
+
+.dragon-landing-trip {
+  width: 40%;
+}
+
+.dragon-landing h1 {
+  font-size: 3.5rem;
+}
+
+.img-landing {
+  width: 90%;
+  height: 90vh;
+  margin-right: 6rem;
+}
+
+.img-final {
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.starship-characters {
+  height: 100vh;
+}
+
+.starship-list {
+  width: 40%;
+}
+
+.starship-list h1 {
+  font-size: 4rem;
+}
+
+.starship-list h2 {
+  font-size: 1.8rem;
+}
+
+.bg-image14 {
+  background-image: url("/assets/images/starship/starship-1.png");
+  background-size: cover;
+}
+
+.bg-image15 {
+  background-image: url("/assets/images/starship/starship-2.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 40%;
+  border-radius: 10px;
+  background-position: center;
+}
+
+.starship-flight {
+  position: relative;
+}
+
+.bg-image16 {
+  background-image: url("/assets/images/starship/starship-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image17 {
+  background-image: url("/assets/images/starship/starship-4.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.text-starship {
+  position: absolute;
+  bottom: 7rem;
+  left: 12rem;
+}
+
+.text-starship h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-image18 {
+  background-image: url("/assets/images/artemis/module-moon.jpg");
+  background-size: cover;
+}
+
+.bg-image19 {
+  background-image: url("/assets/images/starship/starship-7.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.bg-image20 {
+  background-image: url("/assets/images/starship/starship-8.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.bg-image21 {
+  position: relative;
+  background-image: url("/assets/images/starship/starship-5.jpg");
+  background-size: cover;
+}
+
+.bg-image22 {
+  background-image: url("/assets/images/solar-system/EarthOrbit.jpeg");
+  background-size: cover;
+}
+
+.text-first h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.planet {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+}
+
+.planet-right {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+}
+
+.planet-characters {
+  height: 100vh;
+}
+
+.planet-list {
+  width: 40%;
+}
+
+.planet-list h1 {
+  font-size: 4rem;
+}
+
+.planet-list h2 {
+  font-size: 1.8rem;
+}
+
+.img-mercurio {
+  width: 60%;
+}
+
+.img-terra {
+  width: 70%;
+}
+
+.img-planet {
+  max-width: 100%;
+  height: auto;
+}
+
+.planet-list-saturno {
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.planet-list h1 {
+  font-weight: 700;
+}
+
+.planets-distance {
+  text-align: center;
+}
+
+.planets-distance h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.table-custom {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.table-custom th,
+.table-custom td {
+  font-weight: 700;
+}
+
+.table-custom th:first-child,
+.table-custom td:first-child {
+  text-align: left;
+}
+
+.table-custom th:nth-child(2),
+.table-custom td:nth-child(2) {
+  text-align: center;
+}
+
+.table-custom th:last-child,
+.table-custom td:last-child {
+  text-align: right;
+}
+
+.img-moon {
+  width: 90%;
+}
+
+.img-sun {
+  width: 80%;
+}
+
+.bg-image23 {
+  background-image: url("/assets/images/artemis/artemis_crew-sixteen_nine.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.artemis-list {
+  width: 40%;
+  padding-left: 7rem;
+}
+
+.img-artemis {
+  width: 60%;
+}
+
+.artemis-list h2,
+.artemis-tripulation h2,
+.artemis-list-text h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.artemis-tripulation {
+  width: 40%;
+  padding-right: 2rem;
+}
+
+.img-artemis-tripulation {
+  width: 85%;
+  padding-left: 2rem;
+}
+
+.artemis-list-text {
+  padding-left: 2.5rem;
+  width: 42%;
+}
+
+.artemis-list-text p {
+  font-size: 1.2rem;
+}
+
+.img-trip {
+  width: 70%;
+}
+
+.artemis-characters-sls {
+  padding-left: 2rem;
+}
+
+.text-artemis {
+  position: absolute;
+  bottom: 9rem;
+  left: 12rem;
+}
+
+.text-artemis h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.artemis-list-text p {
+  font-weight: 300;
+}
+
+.bg-invert {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg-invert::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/artemis/artemis-infos-1.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.bg-image24 {
+  background-image: url("/assets/images/artemis/artemis-infos-2.jpg");
+  background-size: cover;
+}
+
+.bg-image25 {
+  background-image: url("/assets/images/artemis/artemis-infos-3.jpg");
+  background-size: cover;
+}
+
+.bg-image26 {
+  background-image: url("/assets/images/artemis/module-moon.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

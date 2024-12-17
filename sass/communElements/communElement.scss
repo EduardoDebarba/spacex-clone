@@ -30,3 +30,34 @@ body{
 	font-size: 2rem;
 	font-weight: $font-weight;
 }
+
+.video-container {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+iframe {
+	width: 85vw;
+	height: 95vh;
+	border-radius: 8px;
+	transition: all 0.3s ease-in-out;
+	z-index: 1000;
+}
+
+.btn-video {
+	background-color: transparent;
+	border-style: none;
+}
+
+.btn-video img {
+	width: 70%;
+}
+
+.text-flight {
+	position: absolute;
+	bottom: 70px;
+	left: 110px;
+}

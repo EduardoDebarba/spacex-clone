@@ -6,7 +6,7 @@
 		<title>SpaceX - Starship</title>
 		<link
 			rel="shortcut icon"
-			href="../spacex-clone/images-spacex-clone/favicon-spacex.ico"
+			href="/assets/images/favicon-spacex.ico"
 			type="image/x-icon"
 		/>
 		<!-- Link Bootstrap -->
@@ -19,7 +19,7 @@
 			rel="stylesheet"
 			href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 		/>
-		<link rel="stylesheet" href="starship.css" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
 		<!-- Link Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,10 +36,10 @@
 				class="navbar navbar-expand-lg navbar-light p-3 bg-transparent d-flex align-items-center p-1"
 			>
 				<div class="d-flex align-items-center justify-content-center w-100">
-					<a href="main.html">
+					<a href="/index.html">
 						<img
 							class="img-logo-nav"
-							src="./images-spacex-clone/SpaceX-White-Logo.wine.png"
+							src="/assets/images/SpaceX-White-Logo.wine.png"
 							alt="Logo SpaceX"
 						/>
 					</a>
@@ -60,32 +60,32 @@
 								<a
 									class="nav-link active text-white fw-bold"
 									aria-current="page"
-									href="falcon9.html"
+									href="/pages/falcon9.html"
 									>FALCON 9</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="falcon-heavy.html"
+								<a class="nav-link text-white fw-bold" href="/pages/falcon-heavy.html"
 									>FALCON HEAVY</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="dragon.html"
+								<a class="nav-link text-white fw-bold" href="/pages/dragon.html"
 									>DRAGON</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="starship.html"
+								<a class="nav-link text-white fw-bold" href="/pages/starship.html"
 									>STARSHIP</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="solar-system.html"
+								<a class="nav-link text-white fw-bold" href="/pages/solar-system.html"
 									>SISTEMA SOLAR</a
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white fw-bold" href="artemis.html"
+								<a class="nav-link text-white fw-bold" href="/pages/artemis.html"
 									>VIAGEM PARA A LUA</a
 								>
 							</li>
@@ -96,7 +96,7 @@
 		</header>
 
 		<div
-			class="falcon-main bg-image1 d-flex justify-content-center align-items-center w-100 vh-100"
+			class="falcon-main bg-image14 d-flex justify-content-center align-items-center w-100 vh-100"
 		>
 			<div class="text-center" data-aos="fade-up">
 				<h1 class="text-white">STARSHIP</h1>
@@ -139,16 +139,16 @@
 					</div>
 					<hr class="my-2 text-white" />
 				</div>
-				<div class="col-md-6 text-center bg-image2"></div>
+				<div class="col-md-6 text-center bg-image15"></div>
 			</div>
 		</div>
 
 		<div
-			class="starship-flight bg-image3 d-flex justify-content-center align-items-center w-100 vh-100"
+			class="starship-flight bg-image16 d-flex justify-content-center align-items-center w-100 vh-100"
 			onclick="closeVideo(event)"
 		>
 			<button class="btn-video" onclick="playVideo(event)">
-				<img src="./images-spacex-clone/icons8-reproduzir-100.png" alt="" />
+				<img src="/assets/images/main/icons8-reproduzir-100.png" alt="" />
 			</button>
 			<div class="video-container" id="videoContainer">
 				<iframe
@@ -171,8 +171,7 @@
 			>
 				<div class="carousel-inner">
 					<div class="carousel-item active" data-bs-interval="20000">
-						<div class="bg-image4 vh-100 w-100">
-							<div class="content-overlay">
+						<div class="bg-image17 vh-100 w-100">
 								<div class="text-starship w-25">
 									<h5 class="text-white">CAPACIDADE DO STARSHIP</h5>
 									<p class="text-white">
@@ -183,7 +182,6 @@
 										base lunar e o transporte ponto a ponto aqui na Terra.
 									</p>
 								</div>
-							</div>
 						</div>
 					</div>
 
@@ -191,12 +189,12 @@
 						<div class="vh-100 w-100 video-section">
 							<video class="video-background" autoplay muted loop>
 								<source
-									src="./images-spacex-clone/starship/voo-starship-2.mp4"
+									src="/assets/videos/starship/voo-starship-2.mp4"
 									type="video/mp4"
 								/>
 								Seu navegador não suporta vídeos em HTML5.
 							</video>
-							<div class="content-overlay">
+							<!-- <div class="content-overlay"> -->
 								<div class="text-starship w-25">
 									<h5 class="text-white">ENTREGA DE CARGA ÚTIL</h5>
 									<p class="text-white">
@@ -210,13 +208,13 @@
 										além.
 									</p>
 								</div>
-							</div>
+							<!-- </div> -->
 						</div>
 					</div>
 
 					<div class="carousel-item" data-bs-interval="20000">
-						<div class="bg-image5 vh-100 w-100">
-							<div class="content-overlay">
+						<div class="bg-image18 vh-100 w-100">
+							<!-- <div class="content-overlay"> -->
 								<div class="text-starship w-25">
 									<h5 class="text-white">MISSÕES LUNARES</h5>
 									<p class="text-white">
@@ -230,13 +228,13 @@
 										primeira vez em 50 anos sob as missões Artemis da NASA.
 									</p>
 								</div>
-							</div>
+							<!-- </div> -->
 						</div>
 					</div>
 
 					<div class="carousel-item" data-bs-interval="20000">
-						<div class="bg-image6 vh-100 w-100">
-							<div class="content-overlay">
+						<div class="bg-image19 vh-100 w-100">
+							<!-- <div class="content-overlay"> -->
 								<div class="text-starship w-25">
 									<h5 class="text-white">TRANSPORTE INTERPLANETÁRIO</h5>
 									<p class="text-white">
@@ -247,13 +245,13 @@
 										pessoas para Marte ou outros destinos distantes.
 									</p>
 								</div>
-							</div>
+							<!-- </div> -->
 						</div>
 					</div>
 
 					<div class="carousel-item" data-bs-interval="20000">
-						<div class="bg-image7 vh-100 w-100">
-							<div class="content-overlay">
+						<div class="bg-image20 vh-100 w-100">
+							<!-- <div class="content-overlay"> -->
 								<div class="text-starship w-25">
 									<h5 class="text-white">TRANSPORTE TERRA-TERRA</h5>
 									<p class="text-white">
@@ -265,7 +263,7 @@
 										atrito, bem como turbulência e clima.
 									</p>
 								</div>
-							</div>
+							<!-- </div> -->
 						</div>
 					</div>
 				</div>
@@ -293,13 +291,13 @@
 		<section class="video-section">
 			<video id="video" class="video-background" autoplay muted loop>
 				<source
-					src="./images-spacex-clone/starship/voo-starship-1.mp4"
+					src="/assets/videos/starship/voo-starship-1.mp4"
 					type="video/mp4"
 				/>
 				Seu navegador não suporta vídeos em HTML5.
 			</video>
 
-			<div class="content-overlay">
+			<div class="">
 				<div class="text-white w-25 text-starship" data-aos="fade-right">
 					<h5>RECARGA EM ÓRBITAS</h5>
 					<p>
@@ -315,8 +313,8 @@
 			</div>
 		</section>
 
-		<div class="bg-image8 vh-100 w-100">
-			<div class="text-starbase text-white w-25" data-aos="fade-right">
+		<div class="bg-image21 vh-100 w-100">
+			<div class="text-starship text-white w-25" data-aos="fade-right">
 				<h5>STARBASE</h5>
 				<p>
 					O desenvolvimento e a fabricação da Starship ocorrem na Starbase, um
@@ -334,7 +332,7 @@
 			<p>POLÍTICA DE PRIVACIDADE</p>
 			<p>FEITO POR EDUARDO DEBARBA</p>
 		</footer>
-		<script src="./starship.js"></script>
+		<script src="/assets/js/starship.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 		<script>

@@ -1,0 +1,104 @@
+.bg-image22 {
+	background-image: url("/assets/images/solar-system/EarthOrbit.jpeg");
+	background-size: cover;
+}
+
+.text-first h1 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.planet {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	margin-left: 5rem;
+}
+
+.planet-right {
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	margin-right: 5rem;
+}
+
+.planet-characters {
+	height: 100vh;
+}
+
+.planet-list {
+	width: 40%;
+}
+
+.planet-list h1 {
+	font-size: 4rem;
+}
+
+.planet-list h2 {
+	font-size: 1.8rem;
+}
+
+.img-mercurio {
+	width: 60%;
+}
+
+.img-terra {
+	width: 70%;
+}
+
+.img-planet {
+	max-width: 100%;
+	height: auto;
+}
+
+.planet-list-saturno {
+	width: 40%;
+	margin-right: 2rem;
+}
+
+.planet-list h1 {
+	font-weight: 700;
+}
+
+.planets-distance {
+	text-align: center;
+}
+
+.planets-distance h2 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+
+.table-custom {
+	width: 80%;
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.table-custom th,
+.table-custom td {
+	font-weight: 700;
+}
+
+.table-custom th:first-child,
+.table-custom td:first-child {
+	text-align: left; 
+}
+
+.table-custom th:nth-child(2),
+.table-custom td:nth-child(2) {
+	text-align: center;
+}
+
+.table-custom th:last-child,
+.table-custom td:last-child {
+	text-align: right;
+}
+
+.img-moon {
+	width: 90%;
+}
+
+.img-sun {
+	width: 80%;
+}

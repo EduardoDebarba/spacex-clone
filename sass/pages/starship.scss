@@ -1,0 +1,98 @@
+h1 {
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+.starship-characters {
+	height: 100vh;
+}
+
+.starship-list {
+	width: 40%;
+}
+
+.starship-list h1 {
+	font-size: 4rem;
+}
+
+.starship-list h2 {
+	font-size: 1.8rem;
+}
+
+.bg-image14 {
+	background-image: url("/assets/images/starship/starship-1.png");
+	background-size: cover;
+}
+
+.bg-image15 {
+	background-image: url("/assets/images/starship/starship-2.jpg");
+	background-size: cover;
+	height: 80vh;
+	width: 40%;
+	border-radius: 10px;
+	background-position: center;
+}
+
+.starship-flight {
+	position: relative;
+}
+
+.bg-image16 {
+	background-image: url("/assets/images/starship/starship-3.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-image17 {
+	background-image: url("/assets/images/starship/starship-4.jpg");
+	background-size: cover;
+	position: relative;
+}
+
+.text-starship {
+	position: absolute;
+	bottom: 7rem;
+	left: 12rem;
+}
+
+.text-starship h5 {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+
+.video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.video-section {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.bg-image18 {
+	background-image: url("/assets/images/artemis/module-moon.jpg");
+	background-size: cover;
+}
+
+.bg-image19 {
+	background-image: url("/assets/images/starship/starship-7.png");
+	background-size: cover;
+	background-position: right;
+}
+
+.bg-image20 {
+	background-image: url("/assets/images/starship/starship-8.png");
+	background-size: cover;
+	background-position: right;
+}
+
+.bg-image21 {
+	position: relative;
+	background-image: url("/assets/images/starship/starship-5.jpg");
+	background-size: cover;
+}
