@@ -8,7 +8,7 @@
 	background-size: cover;
 }
 
-h1 {
+.text-center h1 {
 	font-size: 6rem;
 	font-weight: $font-weight;
 }
@@ -80,4 +80,44 @@ h1 {
 .bg-image9 {
 	background-image: url("/assets/images/falcon9/falcon-6.jpeg");
 	background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+	.text-center h1 {
+		font-size: 5rem;
+	}
+
+	.text-center p {
+		padding: 0 2rem;
+	}
+
+	.bg-image5 {
+		background-position: center;
+	}
+
+	.falcon-flights {
+		flex-wrap: wrap;
+	}
+
+	.text-about-falcon {
+		width: 70%;
+		margin-right: 6rem;
+	}
+
+	.falcon-list {
+		width: 90%;
+	}
+
+	.falcon-characters {
+		height: 100%;
+	}
+
+	.bg-image7 {
+		width: 90%;
+		margin-top: 1.5rem;
+	}
+
+	.bg-image9 {
+		background-position: center;
+	}
 }

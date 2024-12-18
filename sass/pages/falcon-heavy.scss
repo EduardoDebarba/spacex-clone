@@ -70,3 +70,94 @@ h1 {
 	width: 100%;
 	height: 100vh;
 }
+
+@media only screen and (max-width: 767px) {
+	.bg-image10,
+	.bg-image11 {
+		background-position: center;
+	}
+
+	.heavy-flights {
+		flex-wrap: wrap;
+	}
+
+	.mx-5 {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	.heavy-list {
+		width: 90%;
+	}
+
+	.heavy {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 1rem;
+	}
+
+	.img-heavy {
+		width: 90%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.heavy-landing {
+		width: 90%;
+		margin-right: 0;
+	}
+
+	.heavy-2-landing {
+		margin-left: 0;
+		flex-direction: column-reverse;
+	}
+
+	.heavy-2-landing video {
+		width: 90%;
+	}
+
+	.img-heavy-last {
+		height: 80vh;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.bg-image10,
+	.bg-image11 {
+		background-position: center;
+	}
+
+	.heavy {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		margin-left: 0;
+	}
+
+	.heavy-list {
+		width: 85%;
+	}
+
+	.img-heavy-list {
+		width: 100%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.heavy-landing {
+		width: 85%;
+		margin-right: 0;
+	}
+
+	.heavy-2-landing {
+		margin-left: 0;
+		flex-direction: column-reverse;
+	}
+
+	.video-heavy {
+		width: 100%;
+	}
+
+	.w-50 {
+		width: 100% !important;
+	}
+}

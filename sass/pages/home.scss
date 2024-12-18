@@ -1,11 +1,3 @@
-.video-background {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	object-fit: cover;
-	z-index: -1;
-}
-
 .bg-image1 {
 	background-image: url("/assets/images/main/main-2.jpg");
 	background-size: cover;
@@ -30,4 +22,17 @@
 	background-image: url("/assets/images/main/main-5.jpg");
 	background-size: cover;
 	position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+	.bg-image2 {
+		background-size: cover;
+		background-position: center;
+	}
+
+	.bg-image1,
+	.bg-image3,
+	.bg-image4 {
+		background-position: center;
+	}
 }

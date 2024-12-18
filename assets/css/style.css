@@ -74,6 +74,31 @@ iframe {
   z-index: -1;
 }
 
+.footer {
+  gap: 3rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .content-overlay {
+    bottom: 3rem;
+    left: 1rem;
+  }
+  .text-flight {
+    bottom: 3rem;
+    left: 2.5rem;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 0;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .content-overlay {
+    bottom: 5rem;
+    left: 2rem;
+  }
+}
 .bg-image1 {
   background-image: url("/assets/images/main/main-2.jpg");
   background-size: cover;
@@ -100,6 +125,17 @@ iframe {
   position: relative;
 }
 
+@media only screen and (max-width: 991px) {
+  .bg-image2 {
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-image1,
+  .bg-image3,
+  .bg-image4 {
+    background-position: center;
+  }
+}
 .bg-image5 {
   background-image: url("/assets/images/falcon9/falcon9-1.jpg");
   background-size: cover;
@@ -110,7 +146,7 @@ iframe {
   background-size: cover;
 }
 
-h1 {
+.text-center h1 {
   font-size: 6rem;
   font-weight: 700;
 }
@@ -184,6 +220,37 @@ h1 {
   background-size: cover;
 }
 
+@media only screen and (max-width: 991px) {
+  .text-center h1 {
+    font-size: 5rem;
+  }
+  .text-center p {
+    padding: 0 2rem;
+  }
+  .bg-image5 {
+    background-position: center;
+  }
+  .falcon-flights {
+    flex-wrap: wrap;
+  }
+  .text-about-falcon {
+    width: 70%;
+    margin-right: 6rem;
+  }
+  .falcon-list {
+    width: 90%;
+  }
+  .falcon-characters {
+    height: 100%;
+  }
+  .bg-image7 {
+    width: 90%;
+    margin-top: 1.5rem;
+  }
+  .bg-image9 {
+    background-position: center;
+  }
+}
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
@@ -257,6 +324,79 @@ h1 {
   height: 100vh;
 }
 
+@media only screen and (max-width: 767px) {
+  .bg-image10,
+  .bg-image11 {
+    background-position: center;
+  }
+  .heavy-flights {
+    flex-wrap: wrap;
+  }
+  .mx-5 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .heavy-list {
+    width: 90%;
+  }
+  .heavy {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  .img-heavy {
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .heavy-landing {
+    width: 90%;
+    margin-right: 0;
+  }
+  .heavy-2-landing {
+    margin-left: 0;
+    flex-direction: column-reverse;
+  }
+  .heavy-2-landing video {
+    width: 90%;
+  }
+  .img-heavy-last {
+    height: 80vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bg-image10,
+  .bg-image11 {
+    background-position: center;
+  }
+  .heavy {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .heavy-list {
+    width: 85%;
+  }
+  .img-heavy-list {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .heavy-landing {
+    width: 85%;
+    margin-right: 0;
+  }
+  .heavy-2-landing {
+    margin-left: 0;
+    flex-direction: column-reverse;
+  }
+  .video-heavy {
+    width: 100%;
+  }
+  .w-50 {
+    width: 100% !important;
+  }
+}
 h1 {
   font-size: 5rem;
   font-weight: 700;
@@ -404,14 +544,6 @@ h1 {
 .text-starship h5 {
   font-size: 2.5rem;
   font-weight: 700;
-}
-
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  z-index: -1;
 }
 
 .video-section {
