@@ -1,6 +1,7 @@
 .bg-image23 {
 	background-image: url("/assets/images/artemis/artemis_crew-sixteen_nine.jpg");
 	background-size: cover;
+	height: 100vh;
 }
 
 h1 {
@@ -15,6 +16,8 @@ h1 {
 
 .img-artemis {
 	width: 60%;
+	max-width: 100%;
+	height: auto; // Mantém as proporções da imagem
 }
 
 .artemis-list h2,
@@ -62,8 +65,8 @@ h1 {
 	font-weight: 700;
 }
 
-.artemis-list-text p{
-    font-weight: 300;
+.artemis-list-text p {
+	font-weight: 300;
 }
 
 .bg-invert {
@@ -97,4 +100,96 @@ h1 {
 .bg-image26 {
 	background-image: url("/assets/images/artemis/module-moon.jpg");
 	background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+	.bg-image23, .bg-image25,.bg-image24, .bg-image26 {
+		background-position: center;
+	}
+
+	.artemis {
+		margin-bottom: 2rem;
+		padding: 2rem;
+		height: 100% !important;
+	}
+
+	.artemis-list {
+		width: 90%;
+		padding-left: 0;
+		margin-top: 2rem;
+	}
+
+	.div-img-artemis {
+		width: 100%;
+	}
+
+	.artemis-list-text {
+		padding-left: 0;
+		width: 90%;
+	}
+
+	.tripulation{
+		height: 100% !important;
+	}
+
+	.artemis-tripulation {
+		width: 90%;
+		padding-right: 0;
+		padding: 1rem;
+	}
+
+	.img-artemis-tripulation {
+		width: 90%;
+		padding-left: 0;
+		margin-top: 2rem;
+	}
+
+	.artemis-characters{
+		padding: 2rem;
+	}
+
+	.img-trip {
+		width: 90%;
+		margin-top: 1rem;
+	}
+
+	.artemis-characters-sls {
+		padding-left: 0;
+	}
+
+	.text-artemis {
+		bottom: 5rem;
+		left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.div-img-tripulation{
+		width: 100%;
+	}
+
+	.tripulation img{
+		width: 90%;
+	}
+
+	.img-artemis-tripulation {
+		width: 90%;
+	}
+
+	.div-img-astronauts{
+		width: 100%;
+	}
+
+	.div-img-astronaut img{
+		width: 90%;
+	}
+
+	.div-img-rocket{
+		width: 100%;
+	}
+
+	.artemis-characters{
+		padding: 0;
+	}
 }

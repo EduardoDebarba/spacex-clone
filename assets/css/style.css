@@ -461,6 +461,10 @@ h1 {
   margin-left: 6rem;
 }
 
+.about-draco {
+  margin-left: 6rem;
+}
+
 .draco-img {
   width: 40%;
 }
@@ -473,7 +477,7 @@ h1 {
   font-size: 3.5rem;
 }
 
-.img-landing {
+.img-landing img {
   width: 90%;
   height: 90vh;
   margin-right: 6rem;
@@ -484,6 +488,59 @@ h1 {
   height: 100vh;
 }
 
+@media only screen and (max-width: 991px) {
+  .bg-image12 {
+    background-position: center;
+  }
+  .dragon-list {
+    width: 90%;
+  }
+  .dragon,
+  .dragon-landing {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+  }
+  .bg-image13 {
+    background-position: center;
+  }
+  .img-human {
+    margin-left: 0;
+  }
+  .about-draco {
+    margin-left: 0;
+  }
+  .dragon-humans-trip {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .img-landing {
+    width: 100%;
+  }
+  .img-landing img {
+    width: 95%;
+    height: 70vh;
+    margin-right: 0;
+  }
+  .dragon-landing-trip {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .img-final {
+    height: 50vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-draco {
+    margin-left: 0;
+  }
+  .img-human {
+    width: 100%;
+  }
+  .draco-img {
+    width: 90%;
+  }
+}
 h1 {
   font-size: 5rem;
   font-weight: 700;
@@ -575,6 +632,36 @@ h1 {
   background-size: cover;
 }
 
+@media only screen and (max-width: 991px) {
+  .bg-image14, .bg-image17, .bg-image18, .bg-image19, .bg-image20, .bg-image21 {
+    background-position: center;
+  }
+  .starship-list {
+    width: 90%;
+  }
+  .starship-characters {
+    height: 100%;
+  }
+  .bg-image15 {
+    margin-top: 2rem;
+    width: 90%;
+    height: 60vh;
+  }
+  .text-starship {
+    bottom: 5rem;
+    left: 2rem;
+  }
+  .w-25 {
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .text-starship {
+    bottom: 6rem;
+    left: 0;
+    padding: 3rem;
+  }
+}
 .bg-image22 {
   background-image: url("/assets/images/solar-system/EarthOrbit.jpeg");
   background-size: cover;
@@ -683,6 +770,7 @@ h1 {
 .bg-image23 {
   background-image: url("/assets/images/artemis/artemis_crew-sixteen_nine.jpg");
   background-size: cover;
+  height: 100vh;
 }
 
 h1 {
@@ -697,6 +785,8 @@ h1 {
 
 .img-artemis {
   width: 60%;
+  max-width: 100%;
+  height: auto;
 }
 
 .artemis-list h2,
@@ -779,6 +869,80 @@ h1 {
 .bg-image26 {
   background-image: url("/assets/images/artemis/module-moon.jpg");
   background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+  .bg-image23, .bg-image25, .bg-image24, .bg-image26 {
+    background-position: center;
+  }
+  .artemis {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    height: 100% !important;
+  }
+  .artemis-list {
+    width: 90%;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  .div-img-artemis {
+    width: 100%;
+  }
+  .artemis-list-text {
+    padding-left: 0;
+    width: 90%;
+  }
+  .tripulation {
+    height: 100% !important;
+  }
+  .artemis-tripulation {
+    width: 90%;
+    padding-right: 0;
+    padding: 1rem;
+  }
+  .img-artemis-tripulation {
+    width: 90%;
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  .artemis-characters {
+    padding: 2rem;
+  }
+  .img-trip {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  .artemis-characters-sls {
+    padding-left: 0;
+  }
+  .text-artemis {
+    bottom: 5rem;
+    left: 4rem;
+    padding-right: 4rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .div-img-tripulation {
+    width: 100%;
+  }
+  .tripulation img {
+    width: 90%;
+  }
+  .img-artemis-tripulation {
+    width: 90%;
+  }
+  .div-img-astronauts {
+    width: 100%;
+  }
+  .div-img-astronaut img {
+    width: 90%;
+  }
+  .div-img-rocket {
+    width: 100%;
+  }
+  .artemis-characters {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
