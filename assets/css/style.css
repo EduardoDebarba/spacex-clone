@@ -79,6 +79,12 @@ iframe {
 }
 
 @media only screen and (max-width: 767px) {
+  .navbar-toggler {
+    margin-left: 1.5rem;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 30 30%22%3E%3Cpath stroke%3D%22rgba%28255, 255, 255, 1%29%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-miterlimit%3D%2210%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E");
+  }
   .content-overlay {
     bottom: 3rem;
     left: 1rem;
@@ -94,6 +100,12 @@ iframe {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    margin-left: 4rem;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 30 30%22%3E%3Cpath stroke%3D%22rgba%28255, 255, 255, 1%29%22 stroke-width%3D%222%22 stroke-linecap%3D%22round%22 stroke-miterlimit%3D%2210%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E");
+  }
   .content-overlay {
     bottom: 5rem;
     left: 2rem;
@@ -251,6 +263,17 @@ iframe {
     background-position: center;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .text-about-falcon {
+    margin-right: 12rem;
+  }
+  .falcon-raptor {
+    height: 100vh;
+  }
+  .img-merlim-2 {
+    width: 80%;
+  }
+}
 h1 {
   font-size: 4.5rem;
   font-weight: 700;
@@ -336,18 +359,15 @@ h1 {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-  .heavy-list {
+  .heavy-list, .heavy-2-landing video {
     width: 90%;
   }
   .heavy {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin: 1rem 0 1rem 1rem;
   }
   .img-heavy {
     width: 90%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem 0;
   }
   .heavy-landing {
     width: 90%;
@@ -356,9 +376,6 @@ h1 {
   .heavy-2-landing {
     margin-left: 0;
     flex-direction: column-reverse;
-  }
-  .heavy-2-landing video {
-    width: 90%;
   }
   .img-heavy-last {
     height: 80vh;
@@ -370,9 +387,7 @@ h1 {
     background-position: center;
   }
   .heavy {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 0;
+    margin: 1rem 0 1rem 0;
   }
   .heavy-list {
     width: 85%;
@@ -407,7 +422,7 @@ h1 {
   background-size: cover;
 }
 
-.dragon-list {
+.dragon-list, .dragon-humans-trip, .draco-img, .dragon-landing-trip {
   width: 40%;
 }
 
@@ -425,9 +440,7 @@ h1 {
 
 .dragon,
 .dragon-landing {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-left: 5rem;
+  margin: 5rem 0 5rem 5rem;
 }
 
 .dragon-flight {
@@ -447,10 +460,6 @@ h1 {
   background-size: cover;
 }
 
-.dragon-humans-trip {
-  width: 40%;
-}
-
 .dragon-humans-trip h2 {
   font-size: 3rem;
   font-weight: 700;
@@ -463,14 +472,6 @@ h1 {
 
 .about-draco {
   margin-left: 6rem;
-}
-
-.draco-img {
-  width: 40%;
-}
-
-.dragon-landing-trip {
-  width: 40%;
 }
 
 .dragon-landing h1 {
@@ -489,7 +490,7 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .bg-image12 {
+  .bg-image12, .bg-image13 {
     background-position: center;
   }
   .dragon-list {
@@ -497,17 +498,9 @@ h1 {
   }
   .dragon,
   .dragon-landing {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 0;
+    margin: 1rem 0 1rem 0;
   }
-  .bg-image13 {
-    background-position: center;
-  }
-  .img-human {
-    margin-left: 0;
-  }
-  .about-draco {
+  .img-human, .about-draco {
     margin-left: 0;
   }
   .dragon-humans-trip {
@@ -531,13 +524,16 @@ h1 {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .dragon-list {
+    width: 85%;
+  }
   .about-draco {
     margin-left: 0;
   }
-  .img-human {
+  .img-human, .div-img-dragon {
     width: 100%;
   }
-  .draco-img {
+  .draco-img, .img-dragon {
     width: 90%;
   }
 }
@@ -673,15 +669,11 @@ h1 {
 }
 
 .planet {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-left: 5rem;
+  margin: 5rem 0 5rem 5rem;
 }
 
 .planet-right {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-right: 5rem;
+  margin: 5rem 5rem 5rem 0;
 }
 
 .planet-characters {
@@ -700,7 +692,13 @@ h1 {
   font-size: 1.8rem;
 }
 
-.img-mercurio {
+.img-mercurio,
+.img-netuno,
+.img-venus,
+.img-marte,
+.img-jupiter,
+.img-urano,
+.img-sun {
   width: 60%;
 }
 
@@ -767,6 +765,61 @@ h1 {
   width: 80%;
 }
 
+@media only screen and (max-width: 991px) {
+  .bg-image22 {
+    background-position: center;
+  }
+  .planet,
+  .planet-right {
+    margin: 2rem 0 0 0;
+  }
+  .img-mercurio,
+  .img-netuno,
+  .img-venus,
+  .img-marte,
+  .img-jupiter,
+  .img-urano,
+  .img-sun {
+    width: 80%;
+    order: 1;
+  }
+  .img-moon,
+  .planet-list,
+  .table-custom {
+    width: 90%;
+  }
+  .img-terra {
+    width: 90%;
+    order: 1;
+  }
+  .planet-list-saturno {
+    width: 75%;
+    margin-right: 0;
+  }
+  .div-img-netuno,
+  .div-img-mercurio,
+  .div-img-terra,
+  .div-img-venus,
+  .div-img-marte,
+  .div-img-jupiter,
+  .div-img-urano {
+    width: 70%;
+    margin-top: 1rem;
+    order: 2;
+  }
+  .div-img-lua,
+  .div-img-sol,
+  .div-img-saturno {
+    width: 90%;
+    order: 2;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .planet-list,
+  .planet-list-saturno {
+    width: 80%;
+  }
+}
 .bg-image23 {
   background-image: url("/assets/images/artemis/artemis_crew-sixteen_nine.jpg");
   background-size: cover;
@@ -899,11 +952,15 @@ h1 {
     width: 90%;
     padding-right: 0;
     padding: 1rem;
+    order: 1;
   }
   .img-artemis-tripulation {
     width: 90%;
     padding-left: 0;
     margin-top: 2rem;
+  }
+  .div-img-tripulation {
+    order: 2;
   }
   .artemis-characters {
     padding: 2rem;
@@ -922,23 +979,14 @@ h1 {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .div-img-tripulation {
+  .artemis-tripulation, .artemis-list {
+    width: 85%;
+  }
+  .div-img-tripulation, .div-img-astronauts, .div-img-rocket {
     width: 100%;
   }
-  .tripulation img {
+  .tripulation img, .img-artemis-tripulation, .div-img-astronaut img {
     width: 90%;
-  }
-  .img-artemis-tripulation {
-    width: 90%;
-  }
-  .div-img-astronauts {
-    width: 100%;
-  }
-  .div-img-astronaut img {
-    width: 90%;
-  }
-  .div-img-rocket {
-    width: 100%;
   }
   .artemis-characters {
     padding: 0;

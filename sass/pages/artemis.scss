@@ -17,7 +17,7 @@ h1 {
 .img-artemis {
 	width: 60%;
 	max-width: 100%;
-	height: auto; // Mantém as proporções da imagem
+	height: auto; 
 }
 
 .artemis-list h2,
@@ -103,6 +103,12 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+
+
+
+
+
+
 	.bg-image23, .bg-image25,.bg-image24, .bg-image26 {
 		background-position: center;
 	}
@@ -136,12 +142,17 @@ h1 {
 		width: 90%;
 		padding-right: 0;
 		padding: 1rem;
+		order: 1;
 	}
 
 	.img-artemis-tripulation {
 		width: 90%;
 		padding-left: 0;
 		margin-top: 2rem;
+	}
+
+	.div-img-tripulation{
+		order: 2;
 	}
 
 	.artemis-characters{
@@ -165,28 +176,17 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.div-img-tripulation{
+
+	.artemis-tripulation, .artemis-list {
+		width: 85%;
+	}
+
+	.div-img-tripulation, .div-img-astronauts, .div-img-rocket{
 		width: 100%;
 	}
 
-	.tripulation img{
+	.tripulation img, .img-artemis-tripulation, .div-img-astronaut img{
 		width: 90%;
-	}
-
-	.img-artemis-tripulation {
-		width: 90%;
-	}
-
-	.div-img-astronauts{
-		width: 100%;
-	}
-
-	.div-img-astronaut img{
-		width: 90%;
-	}
-
-	.div-img-rocket{
-		width: 100%;
 	}
 
 	.artemis-characters{

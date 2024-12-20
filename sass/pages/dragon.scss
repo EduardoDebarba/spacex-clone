@@ -8,7 +8,7 @@ h1 {
 	background-size: cover;
 }
 
-.dragon-list {
+.dragon-list, .dragon-humans-trip, .draco-img, .dragon-landing-trip {
 	width: 40%;
 }
 
@@ -26,9 +26,7 @@ h1 {
 
 .dragon,
 .dragon-landing {
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-	margin-left: 5rem;
+	margin: 5rem 0 5rem 5rem;
 }
 
 .dragon-flight {
@@ -48,10 +46,6 @@ h1 {
 	background-size: cover;
 }
 
-.dragon-humans-trip {
-	width: 40%;
-}
-
 .dragon-humans-trip h2 {
 	font-size: 3rem;
 	font-weight: 700;
@@ -64,14 +58,6 @@ h1 {
 
 .about-draco {
 	margin-left: 6rem;
-}
-
-.draco-img {
-	width: 40%;
-}
-
-.dragon-landing-trip {
-	width: 40%;
 }
 
 .dragon-landing h1 {
@@ -90,7 +76,7 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
-	.bg-image12 {
+	.bg-image12, .bg-image13 {
 		background-position: center;
 	}
 
@@ -100,20 +86,10 @@ h1 {
 
 	.dragon,
 	.dragon-landing {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		margin-left: 0;
+		margin: 1rem 0 1rem 0;
 	}
 
-	.bg-image13 {
-		background-position: center;
-	}
-
-	.img-human {
-		margin-left: 0;
-	}
-
-	.about-draco {
+	.img-human, .about-draco {
 		margin-left: 0;
 	}
 
@@ -141,15 +117,20 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.dragon-list {
+		width: 85%;
+	}
+
 	.about-draco {
 		margin-left: 0;
 	}
 
-	.img-human {
+	.img-human, .div-img-dragon {
 		width: 100%;
 	}
 
-	.draco-img {
+	.draco-img, .img-dragon {
 		width: 90%;
 	}
 }

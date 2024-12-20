@@ -86,20 +86,17 @@ h1 {
 		margin-right: 0 !important;
 	}
 
-	.heavy-list {
+	.heavy-list, .heavy-2-landing video {
 		width: 90%;
 	}
 
 	.heavy {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		margin-left: 1rem;
+		margin: 1rem 0 1rem 1rem;
 	}
 
 	.img-heavy {
 		width: 90%;
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+		margin: 2rem 0 2rem 0;
 	}
 
 	.heavy-landing {
@@ -110,10 +107,6 @@ h1 {
 	.heavy-2-landing {
 		margin-left: 0;
 		flex-direction: column-reverse;
-	}
-
-	.heavy-2-landing video {
-		width: 90%;
 	}
 
 	.img-heavy-last {
@@ -128,9 +121,7 @@ h1 {
 	}
 
 	.heavy {
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		margin-left: 0;
+		margin: 1rem 0 1rem 0;
 	}
 
 	.heavy-list {
