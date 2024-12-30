@@ -161,12 +161,12 @@ iframe {
   }
 }
 .bg-image5 {
-  background-image: url("/assets/images/falcon9/falcon9-1.jpg");
+  background-image: url("../images/falcon9/falcon9-1.jpg");
   background-size: cover;
 }
 
 .bg-image6 {
-  background-image: url("/assets/images/falcon9/falcon9-3.jpg");
+  background-image: url("../images/falcon9/falcon9-3.jpg");
   background-size: cover;
 }
 
@@ -191,7 +191,7 @@ iframe {
 }
 
 .bg-image7 {
-  background-image: url("/assets/images/falcon9/falcon9-2.jpg");
+  background-image: url("../images/falcon9/falcon9-2.jpg");
   background-size: cover;
   height: 80vh;
   width: 40%;
@@ -215,7 +215,7 @@ iframe {
 }
 
 .bg-image8 {
-  background-image: url("/assets/images/falcon9/falcon-4.jpg");
+  background-image: url("../images/falcon9/falcon-4.jpg");
   background-size: cover;
 }
 
@@ -240,7 +240,7 @@ iframe {
 }
 
 .bg-image9 {
-  background-image: url("/assets/images/falcon9/falcon-6.jpeg");
+  background-image: url("../images/falcon9/falcon-6.jpeg");
   background-size: cover;
 }
 
@@ -292,7 +292,7 @@ h1 {
 }
 
 .bg-image10 {
-  background-image: url("/assets/images/falcon-heavy/falcon-heavy-1.jpg");
+  background-image: url("../images/falcon-heavy/falcon-heavy-1.jpg");
   background-size: cover;
 }
 
@@ -332,7 +332,7 @@ h1 {
 }
 
 .bg-image11 {
-  background-image: url("/assets/images/falcon-heavy/40143096241_0324643b5e_o.jpg");
+  background-image: url("../images/falcon-heavy/40143096241_0324643b5e_o.jpg");
   background-size: cover;
 }
 
@@ -430,7 +430,7 @@ h1 {
 }
 
 .bg-image12 {
-  background-image: url("/assets/images/dragon/dragon-1.jpg");
+  background-image: url("../images/dragon/dragon-1.jpg");
   background-size: cover;
 }
 
@@ -468,7 +468,7 @@ h1 {
 }
 
 .bg-image13 {
-  background-image: url("/assets/images/dragon/dragon-3.jpg");
+  background-image: url("../images/dragon/dragon-3.jpg");
   background-size: cover;
 }
 
@@ -571,7 +571,7 @@ h1 {
 }
 
 .bg-image14 {
-  background-image: url("../assets/images/starship/starship-1.png");
+  background-image: url("../images/starship/starship-1.png");
   background-size: cover;
 }
 
@@ -671,7 +671,7 @@ h1 {
   }
 }
 .bg-image22 {
-  background-image: url("/assets/images/solar-system/EarthOrbit.jpeg");
+  background-image: url("../images/solar-system/EarthOrbit.jpeg");
   background-size: cover;
 }
 
@@ -838,7 +838,7 @@ h1 {
   }
 }
 .bg-image23 {
-  background-image: url("/assets/images/artemis/artemis_crew-sixteen_nine.jpg");
+  background-image: url("../images/artemis/artemis_crew-sixteen_nine.jpg");
   background-size: cover;
   height: 100vh;
 }
@@ -919,7 +919,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("/assets/images/artemis/artemis-infos-1.jpg");
+  background-image: url("../images/artemis/artemis-infos-1.jpg");
   background-size: cover;
   background-position: center;
   transform: scaleX(-1);
@@ -927,17 +927,17 @@ h1 {
 }
 
 .bg-image24 {
-  background-image: url("/assets/images/artemis/artemis-infos-2.jpg");
+  background-image: url("../images/artemis/artemis-infos-2.jpg");
   background-size: cover;
 }
 
 .bg-image25 {
-  background-image: url("/assets/images/artemis/artemis-infos-3.jpg");
+  background-image: url("../images/artemis/artemis-infos-3.jpg");
   background-size: cover;
 }
 
 .bg-image26 {
-  background-image: url("/assets/images/artemis/module-moon.jpg");
+  background-image: url("../images/artemis/module-moon.jpg");
   background-size: cover;
 }
 
