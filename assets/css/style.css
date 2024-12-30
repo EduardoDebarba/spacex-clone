@@ -7,6 +7,18 @@ body {
   overflow-x: hidden;
 }
 
+.bg-custom {
+  background-color: #000;
+  width: 100vw;
+  padding: 0 0 1rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+}
+
+.conatiner-fluid {
+  background-color: black;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -765,6 +777,11 @@ h1 {
   width: 80%;
 }
 
+@media only screen and (max-width: 767px) {
+  .bg-image22 {
+    height: 121vh !important;
+  }
+}
 @media only screen and (max-width: 991px) {
   .bg-image22 {
     background-position: center;
@@ -925,6 +942,9 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
+  .bg-image23 {
+    height: 121vh;
+  }
   .bg-image23, .bg-image25, .bg-image24, .bg-image26 {
     background-position: center;
   }
@@ -979,6 +999,9 @@ h1 {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .bg-image23 {
+    height: 106vh;
+  }
   .artemis-tripulation, .artemis-list {
     width: 85%;
   }

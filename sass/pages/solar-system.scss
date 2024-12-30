@@ -105,6 +105,12 @@
 	width: 80%;
 }
 
+@media only screen and (max-width: 767px) {
+	.bg-image22 {
+		height: 121vh !important;
+	}
+}
+
 @media only screen and (max-width: 991px) {
 	.bg-image22 {
 		background-position: center;

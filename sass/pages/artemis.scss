@@ -104,10 +104,9 @@ h1 {
 
 @media only screen and (max-width: 991px) {
 
-
-
-
-
+	.bg-image23{
+		height: 121vh;
+	}
 
 	.bg-image23, .bg-image25,.bg-image24, .bg-image26 {
 		background-position: center;
@@ -176,6 +175,10 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.bg-image23{
+		height: 106vh;
+	}
 
 	.artemis-tripulation, .artemis-list {
 		width: 85%;

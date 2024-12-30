@@ -3,6 +3,18 @@ body {
 	overflow-x: hidden;
 }
 
+.bg-custom {
+	background-color: $bg-color; 
+	width: 100vw;
+	padding: 0 0 1rem 1rem;
+	margin-top: 0.5rem;
+	border-radius: 10px;
+  } 
+  
+  .conatiner-fluid{
+	background-color: black;
+  }
+
 .header {
 	position: sticky;
 	top: 0;
