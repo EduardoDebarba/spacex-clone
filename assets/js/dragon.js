@@ -29,7 +29,7 @@ function playVideo(event) {
     event.stopPropagation();
     document.getElementById("videoContainer").style.display = "block";
     document.getElementById("youtubeVideo").src = "https://www.youtube.com/embed/xjSb_b4TtxI?si=P1o-rQZgw7xpaz2h?autoplay=1";
-    
+
 }
 
 function closeVideo(event) {
@@ -38,16 +38,15 @@ function closeVideo(event) {
     document.getElementById("youtubeVideo").src = "";
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
     const navbarCollapse = document.querySelector('#navbarNav');
     const navbarToggler = document.querySelector('.navbar-toggler');
 
     navbarToggler.addEventListener('click', () => {
-      if (navbarCollapse.classList.contains('show')) {
-        navbarCollapse.classList.remove('bg-custom');
-      } else {
-        navbarCollapse.classList.add('bg-custom');
-      }
+        if (navbarCollapse.classList.contains('show')) {
+            navbarCollapse.classList.remove('bg-custom');
+        } else {
+            navbarCollapse.classList.add('bg-custom');
+        }
     });
-  });
+});

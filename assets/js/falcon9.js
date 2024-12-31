@@ -36,3 +36,16 @@ const animateOnScroll = (entries, observer) => {
 
 const observer = new IntersectionObserver(animateOnScroll, { threshold: 0.5 });
 observer.observe(document.querySelector(".falcon-flights"));
+
+document.addEventListener('DOMContentLoaded', () => {
+    const navbarCollapse = document.querySelector('#navbarNav');
+    const navbarToggler = document.querySelector('.navbar-toggler');
+
+    navbarToggler.addEventListener('click', () => {
+        if (navbarCollapse.classList.contains('show')) {
+            navbarCollapse.classList.remove('bg-custom');
+        } else {
+            navbarCollapse.classList.add('bg-custom');
+        }
+    });
+});
