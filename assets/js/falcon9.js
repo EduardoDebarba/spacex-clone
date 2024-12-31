@@ -10,7 +10,7 @@ function closeVideo(event) {
     document.getElementById("youtubeVideo").src = "";
 }
 
- function animateValue(obj, start, end, duration) {
+function animateValue(obj, start, end, duration) {
     let startTimestamp = null;
     const step = (timestamp) => {
         if (!startTimestamp) startTimestamp = timestamp;

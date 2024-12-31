@@ -29,7 +29,6 @@ function playVideo(event) {
     event.stopPropagation();
     document.getElementById("videoContainer").style.display = "block";
     document.getElementById("youtubeVideo").src = "https://www.youtube.com/embed/4Ca6x4QbpoM?si=gMUCINrHJUgLH9m7?si=P1o-rQZgw7xpaz2h?autoplay=1";
-    
 }
 
 function closeVideo(event) {

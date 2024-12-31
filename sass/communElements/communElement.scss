@@ -5,9 +5,19 @@ body {
 
 .header.active,
 .navbar.active {
-  background-color: black !important ;/* Fundo preto */
+  background-color: black !important ;
   width: 100%;
 }
+
+.navbar-toggler{
+	border: none;
+	outline: none;
+}
+
+.navbar-toggler:focus {
+	outline: none; 
+	box-shadow: none; 
+  }
 
 .conatiner-fluid {
 	background-color: $bg-color;

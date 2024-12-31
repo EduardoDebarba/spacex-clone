@@ -9,8 +9,18 @@ body {
 
 .header.active,
 .navbar.active {
-  background-color: black !important; /* Fundo preto */
+  background-color: black !important;
   width: 100%;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .conatiner-fluid {
@@ -369,7 +379,8 @@ h1 {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-  .heavy-list, .heavy-2-landing video {
+  .heavy-list,
+  .heavy-2-landing video {
     width: 90%;
   }
   .heavy {
@@ -432,7 +443,10 @@ h1 {
   background-size: cover;
 }
 
-.dragon-list, .dragon-humans-trip, .draco-img, .dragon-landing-trip {
+.dragon-list,
+.dragon-humans-trip,
+.draco-img,
+.dragon-landing-trip {
   width: 40%;
 }
 
@@ -500,7 +514,8 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .bg-image12, .bg-image13 {
+  .bg-image12,
+  .bg-image13 {
     background-position: center;
   }
   .dragon-list {
@@ -510,7 +525,8 @@ h1 {
   .dragon-landing {
     margin: 1rem 0 1rem 0;
   }
-  .img-human, .about-draco {
+  .img-human,
+  .about-draco {
     margin-left: 0;
   }
   .dragon-humans-trip {
@@ -540,10 +556,12 @@ h1 {
   .about-draco {
     margin-left: 0;
   }
-  .img-human, .div-img-dragon {
+  .img-human,
+  .div-img-dragon {
     width: 100%;
   }
-  .draco-img, .img-dragon {
+  .draco-img,
+  .img-dragon {
     width: 90%;
   }
 }
@@ -639,7 +657,12 @@ h1 {
 }
 
 @media only screen and (max-width: 991px) {
-  .bg-image14, .bg-image17, .bg-image18, .bg-image19, .bg-image20, .bg-image21 {
+  .bg-image14,
+  .bg-image17,
+  .bg-image18,
+  .bg-image19,
+  .bg-image20,
+  .bg-image21 {
     background-position: center;
   }
   .starship-list {
@@ -943,7 +966,10 @@ h1 {
   .bg-image23 {
     height: 121vh;
   }
-  .bg-image23, .bg-image25, .bg-image24, .bg-image26 {
+  .bg-image23,
+  .bg-image25,
+  .bg-image24,
+  .bg-image26 {
     background-position: center;
   }
   .artemis {
@@ -1000,13 +1026,18 @@ h1 {
   .bg-image23 {
     height: 106vh;
   }
-  .artemis-tripulation, .artemis-list {
+  .artemis-tripulation,
+  .artemis-list {
     width: 85%;
   }
-  .div-img-tripulation, .div-img-astronauts, .div-img-rocket {
+  .div-img-tripulation,
+  .div-img-astronauts,
+  .div-img-rocket {
     width: 100%;
   }
-  .tripulation img, .img-artemis-tripulation, .div-img-astronaut img {
+  .tripulation img,
+  .img-artemis-tripulation,
+  .div-img-astronaut img {
     width: 90%;
   }
   .artemis-characters {
